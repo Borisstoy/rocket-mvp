@@ -34,3 +34,5 @@ module RocketMvp
     config.generators.system_tests = nil
   end
 end
+
+config.i18n.default_locale = :fr

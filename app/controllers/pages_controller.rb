@@ -3,4 +3,8 @@ class PagesController < ApplicationController
 
   def home
   end
+
+  def projects
+    render template: "pages/#{params[:page]}"
+  end
 end
