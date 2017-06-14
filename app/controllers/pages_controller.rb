@@ -1,10 +1,9 @@
 class PagesController < ApplicationController
-  skip_before_action :authenticate_user!, only: [ :home ]
+  skip_before_action :authenticate_user!, only: [ :home, :projects ]
 
   def home
   end
 
   def projects
-    render template: "pages/#{params[:page]}"
   end
 end

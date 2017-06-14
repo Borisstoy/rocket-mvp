@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
   scope '(:locale)', locale: /fr|en/ do
     root to: 'pages#home'
-    get "/pages/*page" => "pages#projects"
+    get 'projects', to: "pages#projects"
   end
 
 end
