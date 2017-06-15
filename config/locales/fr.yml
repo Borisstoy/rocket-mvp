@@ -1,4 +1,9 @@
 fr:
+  shared:
+    navbar:
+      sumbit_project: "Soumettez votre projet"
+
   pages:
     home:
       hello: "Bonjour"
+

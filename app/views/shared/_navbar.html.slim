@@ -1,0 +1,10 @@
+nav#nav-main
+  .left-side
+    = link_to t('.sumbit_project'), projects_path
+  .right-side.if class=("<= 'nav-other-pages' !current_page.path.include? 'index' >")
+
+  .slider
+#nav-trigger
+  i.fa.fa-bars
+
+nav#nav-mobile

@@ -1,0 +1,210 @@
+#nav-trigger
+    display: none
+    justify-content: flex-start
+    align-content: center
+    padding: 1em 0 1em 1.5em
+    z-index: 999
+    background: white
+    border-bottom: 1px solid #eaeaea
+
+    i
+        font-size: 1.5em
+        color: $dark
+
+nav#nav-main
+    position: fixed
+    background-color: transparent
+    width: 100%
+    text-align: left
+    height: 150px
+    padding: 0 4em
+    display: flex
+    align-items: center
+    text-transform: uppercase
+    z-index: 100
+
+    .about-nav-item
+        display: none
+
+    .logo-display-mobile
+        display: none
+
+    .left-side
+        margin-right: auto
+
+        a
+            &:after
+                opacity: 1 !important
+
+            &:hover:after
+                width: 0
+
+        img
+            width: 50px
+
+    .no-hover
+        &:after
+            opacity: 1 !important
+
+        &:hover:after
+            width: 0
+
+    .margin-left
+        margin-left: 1rem
+
+    .image-cropper
+        width: 55px
+        height: 55px
+        position: relative
+        overflow: hidden
+        border-radius: 50%
+
+        img
+            display: inline
+            margin: auto
+            height: 100%
+
+    .right-side
+        a
+            margin: 0 0 0 1.3rem
+            font-size: 0.75em
+            font-weight: 400
+            letter-spacing: 0.069em
+
+            color:white
+
+            position: relative
+
+            &:after
+                content: ""
+                position: absolute
+                bottom: -5px
+                left: 0
+                width: 0%
+                border-bottom: 1px solid white
+                transition: 0.2s
+
+            &:hover:after
+                width: 100%
+
+    .nav-other-pages
+        a
+            color: $dark
+
+            &:after
+                content: ""
+                position: absolute
+                bottom: -5px
+                left: 0
+                width: 0%
+                border-bottom: 1px solid $dark
+                transition: 0.2s
+
+            &:hover:after
+                width: 100%
+
+    .nav-exper
+        a
+            color: white
+
+    .social
+        padding: 0 1em 0 0
+
+        a
+            &:after
+                opacity: 1 !important
+
+            &:hover:after
+                width: 0
+
+nav#nav-mobile
+    background-color: white
+    position: relative
+    width: 100%
+    text-align: left
+    display: none
+    flex-direction: column
+    justify-content: center
+    flex-wrap: wrap
+    align-content: center
+    padding: 1em 0 1.5em 1.5em
+    border-bottom: 1px solid #eaeaea
+    text-transform: uppercase
+    z-index: 999
+
+    .logo-display-mobile
+        display: block
+        max-width: 50px
+        padding-top: 0.5em
+
+    .left-side
+        display: none
+
+    .image-cropper
+        display: none
+
+        img
+            display: none
+
+    .right-side
+        display: flex
+        flex-direction: column
+
+        a
+            padding: 0.4em 0 0.4em 0
+            font-size: 1.2em
+            font-weight: 700
+
+            color: $dark
+
+            line-height: 1.2em
+
+            &:hover
+                color: $branding
+
+    .social
+        margin-top: 2rem
+        font-size: 1.3em
+
+// on-scroll classes
+
+.sticky-nav-bar
+    background-color: rgba(255, 255, 255, 0.2) !important
+    transition: background-color 3s ease-in-out
+    text-align: left
+
+    a
+        color: lighten($dark, 30%)
+
+// border-bottom animation
+
+.slider
+    position: absolute
+    bottom: 0
+    left: 0
+    height: 1px
+    background-color: rgba(255, 255, 255, 0.2)
+    width: 0%
+    -webkit-transition: width 2s ease
+    transition: width 2s ease
+
+.slider-animate
+    width: 100%
+
+@media screen and (max-width: 768px)
+    .slider
+        display: none
+
+    .about-nav-item
+        display: flex
+
+    #nav-trigger
+        display: flex
+        z-index: 99
+
+    nav#nav-main
+        display: none
+
+    nav#nav-mobile
+        display: flex
+        z-index: 99

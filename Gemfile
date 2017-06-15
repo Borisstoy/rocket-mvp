@@ -21,7 +21,6 @@ gem 'slim-rails', '~> 3.1', '>= 3.1.1'
 gem 'i18n'
 
 gem 'font-awesome-rails'
-gem 'font-awesome-sass'
 
 gem 'newrelic_rpm'
 
