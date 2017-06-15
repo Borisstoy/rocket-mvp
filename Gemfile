@@ -23,6 +23,8 @@ gem 'i18n'
 gem 'font-awesome-rails'
 gem 'font-awesome-sass'
 
+gem 'newrelic_rpm'
+
 group :development, :test do
   gem 'binding_of_caller'
   gem 'better_errors'
