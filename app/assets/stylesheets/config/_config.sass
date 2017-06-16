@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Overpass:300,400,700")
+
+html, body
+    margin: 0
+    padding: 0
+
+h1, h2, h3, h4, h5
+    font-family: "Lato", arial, sans-serif
+
+a, p, li, ul
+    font-family: "Overpass", arial, sans-serif
+
+\::selection
+    background: #eaeaea
+
+\::-moz-selection
+    background: #eaeaea
+
+ul, li, a
+    text-decoration: none
+
+a
+    &:hover, &:active, &:focus
+        text-decoration: none!important
+
+ul
+    list-style: none
+
+*
+    box-sizing: border-box
+
+// prevents horizontal scrolling on desktop + mobile //
+
+html, body
+    width: 100%
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    box-sizing: border-box
+
+.clearix:before,
+.clearfix:after
+    content: " "
+    display: table
+
+.clearfix:after
+    clear: both
+
