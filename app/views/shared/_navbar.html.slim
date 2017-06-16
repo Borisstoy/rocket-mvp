@@ -6,7 +6,11 @@ nav#nav-main
   .right-side
     = link_to t('.our_service'), root_path
     = link_to t('.sumbit_project'), projects_path
-    = link_to
+
+    - if I18n.locale == I18n.default_locale
+      = link_to "English", { :locale=>'en' }
+    - else
+      = link_to "Français", { :locale=>'fr' }
 
   .slider
 
