@@ -2,6 +2,7 @@ en:
   shared:
     navbar:
       sumbit_project: "Submit your project"
+      our_service: "Our offer"
 
   pages:
     home:

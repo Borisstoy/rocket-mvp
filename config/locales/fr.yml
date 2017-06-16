@@ -2,6 +2,7 @@ fr:
   shared:
     navbar:
       sumbit_project: "Soumettez votre projet"
+      our_service: "Notre offre"
 
   pages:
     home:

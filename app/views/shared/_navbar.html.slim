@@ -1,9 +1,15 @@
 nav#nav-main
   .left-side
+    = link_to root_path, class: "logo" do
+      = image_tag ""
+
+  .right-side
+    = link_to t('.our_service'), root_path
     = link_to t('.sumbit_project'), projects_path
-  .right-side.if class=("<= 'nav-other-pages' !current_page.path.include? 'index' >")
+    = link_to
 
   .slider
+
 #nav-trigger
   i.fa.fa-bars
 
