@@ -1,1 +1,1 @@
-Rails app generated with [lewagon/rails-templates](https://github.com/lewagon/rails-templates), created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.
+We help entrepreneurs to develop their MVP and guide them through their go-to-market strategy tanks to our eperience in business, marketing, product and software development.
