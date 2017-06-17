@@ -17,3 +17,7 @@ en:
   pages:
     home_banner:
       hello: "Hello world"
+
+  project_requests:
+    create:
+      project_save: "Your project has been successfully submitted, we'll bet gack to you within 48 hours"

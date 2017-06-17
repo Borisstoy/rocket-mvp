@@ -8,7 +8,7 @@ class ProjectRequestsController < ApplicationController
   def create
     @project_request = ProjectRequest.new project_requests_params
     if @project_request.save
-      redirect_to root_path, notice: "t('.project_save')"
+      redirect_to root_path, notice: t('.project_save')
     else
       render :new
     end

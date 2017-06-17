@@ -18,3 +18,6 @@ fr:
     home_banner:
       hello: "Bonjour"
 
+  project_requests:
+    create:
+      project_save: "Votre projet nous a été transmis, notre équipe vous contactera d'ici 48h"
