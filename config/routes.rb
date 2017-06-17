@@ -1,9 +1,8 @@
 Rails.application.routes.draw do
-  devise_for :users
-
   scope '(:locale)', locale: /fr|en/ do
+    devise_for :users
     root to: 'pages#home'
-    get 'projects', to: "project_requests#index"
+    resources :project_requests
   end
 
 end

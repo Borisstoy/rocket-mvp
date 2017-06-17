@@ -16,3 +16,54 @@ $gray:              #000000;
 
 $branding:          #333;
 $dark:              #333;
+
+@mixin border-radius {
+  -webkit-border-radius: .2em!important;
+  -moz-border-radius: .2em!important;
+  -ms-border-radius: .2em!important;
+  border-radius: .2em!important;
+}
+
+@mixin flexbox {
+  -js-display: flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@mixin flexwrap {
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+@mixin flexdirection-column {
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+@mixin alignitems-start {
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+}
+
+@mixin alignitems-center {
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+@mixin alignitems-left {
+  -webkit-align-items: flex-start;
+  align-items: flex-start;
+}
+
+@mixin justifycontent-center {
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+@mixin justifycontent-spacebetween {
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}

@@ -1,0 +1,29 @@
+= simple_form_for @project_request do |f|
+  = f.label I18n.t('.your_name')
+  = f.text_field :name
+
+  = f.label I18n.t('.your_last_name')
+  = f.text_field :last_name
+
+  = f.label I18n.t('.your_email')
+  = f.text_field :email
+
+  = f.label I18n.t('.project_title')
+  = f.text_field :title
+
+  = f.label I18n.t('.project_pain')
+  = f.text_area :pain
+
+  = f.label I18n.t('.project_target')
+  = f.text_field :target
+
+  = f.label I18n.t('.project_solution')
+  = f.text_area :solution
+
+  = f.label I18n.t('.project_description')
+  = f.text_area :description
+
+  = f.label I18n.t('.project_budget')
+  = f.input :budget, collection: budget_range
+
+  = f.button :submit

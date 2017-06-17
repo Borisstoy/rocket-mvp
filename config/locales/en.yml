@@ -1,9 +1,19 @@
 en:
+  your_name: "Your name"
+  your_last_name: "Your last name"
+  your_email: "Your email"
+  project_title: "Your project name"
+  project_pain: "The problem you solve"
+  project_target: "Your target"
+  project_solution: "The solution you bring"
+  project_description: "Describe briefly your project"
+  project_budget: "Your budget"
+
   shared:
     navbar:
       sumbit_project: "Submit your project"
       our_service: "Our offer"
 
   pages:
-    home:
+    home_banner:
       hello: "Hello world"

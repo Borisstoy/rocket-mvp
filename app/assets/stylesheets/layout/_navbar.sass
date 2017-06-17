@@ -12,16 +12,15 @@
         color: $dark
 
 nav#nav-main
-    position: fixed
     background-color: transparent
-    width: 100%
+    width: 1040px
+    margin: 0 auto
     text-align: left
-    height: 150px
-    padding: 0 4em
-    display: flex
+    height: 70px
+    +flexbox
     align-items: center
-    text-transform: uppercase
     z-index: 100
+    color: $dark
 
     .about-nav-item
         display: none
@@ -66,12 +65,10 @@ nav#nav-main
 
     .right-side
         a
-            margin: 0 0 0 1.3rem
-            font-size: 0.75em
+            margin: 0 0 0 3.5rem
+            font-size: .9em
             font-weight: 400
-            letter-spacing: 0.069em
-
-            color:white
+            color: $dark
 
             position: relative
 
@@ -86,36 +83,6 @@ nav#nav-main
 
             &:hover:after
                 width: 100%
-
-    .nav-other-pages
-        a
-            color: $dark
-
-            &:after
-                content: ""
-                position: absolute
-                bottom: -5px
-                left: 0
-                width: 0%
-                border-bottom: 1px solid $dark
-                transition: 0.2s
-
-            &:hover:after
-                width: 100%
-
-    .nav-exper
-        a
-            color: white
-
-    .social
-        padding: 0 1em 0 0
-
-        a
-            &:after
-                opacity: 1 !important
-
-            &:hover:after
-                width: 0
 
 nav#nav-mobile
     background-color: white
@@ -147,7 +114,7 @@ nav#nav-mobile
             display: none
 
     .right-side
-        display: flex
+        +flexbox
         flex-direction: column
 
         a
@@ -196,15 +163,15 @@ nav#nav-mobile
         display: none
 
     .about-nav-item
-        display: flex
+        +flexbox
 
     #nav-trigger
-        display: flex
+        +flexbox
         z-index: 99
 
     nav#nav-main
         display: none
 
     nav#nav-mobile
-        display: flex
+        +flexbox
         z-index: 99
