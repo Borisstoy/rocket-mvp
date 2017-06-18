@@ -5,7 +5,7 @@
     padding: 1em 0 1em 1.5em
     z-index: 999
     background: white
-    border-bottom: 1px solid #eaeaea
+    border-bottom: 1px solid $light-grey
 
     i
         font-size: 1.5em
@@ -95,9 +95,6 @@ nav#nav-mobile
     +justifycontent-center
     flex-wrap: wrap
     align-content: center
-    padding: 1em 0 1.5em 1.5em
-    border-bottom: 1px solid #eaeaea
-    text-transform: uppercase
     z-index: 999
 
     .logo-display-mobile
@@ -119,16 +116,21 @@ nav#nav-mobile
         +flexdirection-column
 
         a
-            padding: 0.4em 0 0.4em 0
+            padding: .5em 1em
             font-size: 1.2em
             font-weight: 700
-
             color: $dark
-
             line-height: 1.2em
 
             &:hover
                 color: $branding
+
+        a:first-child
+            padding: 1em 1em .5em 1em
+
+        a:last-child
+            padding: .5em 1em 1em 1em
+            border-bottom: 1px solid $light-grey
 
     .social
         margin-top: 2rem

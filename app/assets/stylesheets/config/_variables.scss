@@ -1,10 +1,7 @@
 $base-size: 16px;
 $base-height: 1.4;
 
-/* -------------------------------------
- * Colors
- * ------------------------------------- */
-// Scheme
+// Bootsrap override
 $brand-color:       #D23333;
 
 $red:               #EE5F5B;
@@ -14,8 +11,10 @@ $orange:            #E67E22;
 $green:             #32B796;
 $gray:              #000000;
 
+// custom
 $branding:          #333;
 $dark:              #333;
+$light-grey:        #eaeaea;
 
 $screen-lg:         900px;
 
