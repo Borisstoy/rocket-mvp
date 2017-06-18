@@ -22,3 +22,7 @@ fr:
   project_requests:
     create:
       project_save: "Votre projet nous a été transmis, notre équipe vous contactera d'ici 48h"
+
+  project_requests:
+    new:
+      new_proj_title: "Décrivez votre projet"
