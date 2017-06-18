@@ -13,12 +13,13 @@
 
 nav#nav-main
     background-color: transparent
-    width: 1040px
+    max-width: 1040px
+    padding: 0 2em
     margin: 0 auto
     text-align: left
     height: 70px
     +flexbox
-    align-items: center
+    +alignitems-center
     z-index: 100
     color: $dark
 
@@ -78,7 +79,7 @@ nav#nav-main
                 bottom: -5px
                 left: 0
                 width: 0%
-                border-bottom: 1px solid white
+                border-bottom: 1px solid $branding
                 transition: 0.2s
 
             &:hover:after
@@ -90,8 +91,8 @@ nav#nav-mobile
     width: 100%
     text-align: left
     display: none
-    flex-direction: column
-    justify-content: center
+    +flexdirection-column
+    +justifycontent-center
     flex-wrap: wrap
     align-content: center
     padding: 1em 0 1.5em 1.5em
@@ -115,7 +116,7 @@ nav#nav-mobile
 
     .right-side
         +flexbox
-        flex-direction: column
+        +flexdirection-column
 
         a
             padding: 0.4em 0 0.4em 0

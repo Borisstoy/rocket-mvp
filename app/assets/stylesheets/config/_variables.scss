@@ -17,6 +17,8 @@ $gray:              #000000;
 $branding:          #333;
 $dark:              #333;
 
+$screen-lg:         900px;
+
 @mixin border-radius {
   -webkit-border-radius: .2em!important;
   -moz-border-radius: .2em!important;

@@ -35,7 +35,9 @@
   <body>
     <%= render 'shared/navbar' %>
     <%= render 'shared/flashes' %>
-    <%= yield %>
+    <div id= main-wrapper >
+      <%= yield %>
+    </div>
     <%= javascript_include_tag 'application' %>
     <%= render "shared/analytics" %>
   </body>

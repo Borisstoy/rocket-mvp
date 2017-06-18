@@ -16,7 +16,8 @@ fr:
 
   pages:
     home_banner:
-      hello: "Bonjour"
+      banner_intro: "Nous aidons les entrepreneurs à développer leur MVP"
+      banner_prop: "Obtenez dans un délai d'un mois votre produit"
 
   project_requests:
     create:
