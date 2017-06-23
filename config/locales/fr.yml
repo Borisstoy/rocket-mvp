@@ -16,6 +16,7 @@ fr:
     navbar:
       sumbit_project: "Soumettez votre projet"
       our_service: "Notre offre"
+      qa: "FAQ"
 
   pages:
     home_banner:

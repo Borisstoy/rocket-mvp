@@ -16,6 +16,7 @@ en:
     navbar:
       sumbit_project: "Submit your project"
       our_service: "Service"
+      qa: "Q&A"
 
   pages:
     home_banner:
