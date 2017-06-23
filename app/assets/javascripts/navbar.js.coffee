@@ -46,7 +46,7 @@ $(document).ready ->
         if $('#nav-main').data('size') == 'small'
           $('#nav-main').data 'size', 'big'
           $('#nav-main').stop().animate {
-            'height': '150px'
+            'height': '100px'
             'padding-right': '4em'
             'padding-left': '4em'
           }, 600
