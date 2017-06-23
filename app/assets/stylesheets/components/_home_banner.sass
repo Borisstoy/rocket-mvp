@@ -8,18 +8,25 @@
         width: 1460px
         text-align: left
 
+        @media (max-width: $screen-md)
+            padding: 0
+
         h1
             font-size: 4em
             font-weight: 700
             color: $branding
 
-        @media (max-width: $screen-lg)
-            font-size: 1.4em
+            @media (max-width: $screen-lg)
+                font-size: 1.8em
 
         h5
             font-size: 1.6em
             color: $grey
             font-weight: 300
+
+            @media (max-width: $screen-lg)
+                font-size: 1.3em
+                line-height: 1.3em
 
         a
             display: inline-block
@@ -56,6 +63,9 @@
         right: 0
         left: 0
         position: absolute
+
+        @media (max-width: $screen-md)
+            display: none
 
         .arrow-container
             +flexbox
