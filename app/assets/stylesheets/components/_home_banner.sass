@@ -4,7 +4,9 @@
     +justifycontent-center
 
     .banner-cta
-        padding: 0 16em
+        padding: 0 22em 0 5em
+        width: 1460px
+        text-align: left
 
         h1
             font-size: 4em
@@ -46,4 +48,37 @@
         transform: translate(-50%, -50%)
         opacity: 0.1
         filter: alpha(opacity=10)
+
+
+    .arrow-down
+        width: 100%
+        bottom: 0
+        right: 0
+        left: 0
+        position: absolute
+
+        .arrow-container
+            +flexbox
+            +justifycontent-end
+
+            .arrow
+                width: 120px
+                height: 120px
+                text-align: center
+                font-size: 1.3em
+
+                &:before
+                    +flexbox
+                    +justifycontent-center
+                    +alignitems-center
+                    font-family: FontAwesome
+                    content: '\f0d7'
+                    color: #fff
+                    border-radius: 50%
+                    height: 50%
+                    width: 50%
+                    background: $branding
+                    -webkit-box-shadow: 0px 7px 36px 6px rgba(0, 0, 0, 0.17)
+                    -moz-box-shadow: 0px 7px 36px 6px rgba(0, 0, 0, 0.17)
+                    box-shadow: 0px 7px 36px 6px rgba(0, 0, 0, 0.17)
 

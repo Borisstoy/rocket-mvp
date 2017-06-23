@@ -1,7 +1,13 @@
 #wrapper-banner
   = video_tag("/videos/banner-intro.mp4", height: '100%', width: '100%', autoplay: :autoplay, loop: :loop)
+
   .banner-cta
     h1= t('.banner_intro')
     h5= t('.banner_prop')
     = link_to t('general.get_in_touch'), new_project_request_path, class: 'grow'
+
+  .arrow-down
+    .arrow-container
+      .arrow
+
 
