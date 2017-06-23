@@ -9,6 +9,9 @@ fr:
   project_description: "Décrivez brièvement votre projet"
   project_budget: "Votre budget"
 
+  general:
+    get_in_touch: "Prenez contact"
+
   shared:
     navbar:
       sumbit_project: "Soumettez votre projet"
@@ -17,7 +20,7 @@ fr:
   pages:
     home_banner:
       banner_intro: "Nous développons votre prototype, prêt à être testé"
-      banner_prop: "Obtenez dans un délai d'un mois votre produit"
+      banner_prop: "Obtenez votre produit dans un délai d'un mois"
 
   project_requests:
     create:

@@ -1,7 +1,46 @@
 #wrapper-banner
-    h1
-        font-size: 3em
-        font-weight: 700
+    +flexbox
+    +alignitems-center
+    +justifycontent-center
 
-    @media (max-width: $screen-lg)
-        font-size: 1.4em
+    .banner-cta
+        padding: 0 16em
+
+        h1
+            font-size: 4em
+            font-weight: 700
+            color: $branding
+
+        @media (max-width: $screen-lg)
+            font-size: 1.4em
+
+        h5
+            font-size: 1.6em
+            color: $grey
+            font-weight: 300
+
+        a
+            display: inline-block
+            color: $grey
+            margin-top: 2rem
+            font-size: 1.2em
+
+            &:after
+                font-family: FontAwesome
+                content: '\f178'
+                margin-left: 1rem
+                color: $branding
+
+    video
+        position: fixed
+        top: 50%
+        left: 50%
+        z-index: -99
+        min-width: 100%
+        min-height: 100%
+        width: auto
+        height: auto
+        transform: translate(-50%, -50%)
+        opacity: 0.1
+        filter: alpha(opacity=10)
+

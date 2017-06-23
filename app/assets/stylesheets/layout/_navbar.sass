@@ -9,7 +9,7 @@
 
     i
         font-size: 1.5em
-        color: $dark
+        color: $grey
 
 nav#nav-main
     background-color: transparent
@@ -20,7 +20,7 @@ nav#nav-main
     +flexbox
     +alignitems-center
     z-index: 100
-    color: $dark
+    color: $grey
 
     .about-nav-item
         display: none
@@ -68,18 +68,21 @@ nav#nav-main
             margin: 0 0 0 3.5rem
             font-size: .9em
             font-weight: 400
-            color: $dark
-
+            color: $grey
             position: relative
+
+            &:hover
+                color: darken($grey, 20%)
 
             &:after
                 content: ""
                 position: absolute
-                bottom: -5px
+                bottom: -6px
                 left: 0
                 width: 0%
-                border-bottom: 1px solid $branding
+                border-bottom: 2px solid $branding
                 transition: 0.2s
+                color: $branding
 
             &:hover:after
                 width: 100%
@@ -118,7 +121,7 @@ nav#nav-mobile
             padding: .5em 1em
             font-size: 1.2em
             font-weight: 700
-            color: $dark
+            color: $grey
             line-height: 1.2em
 
             &:hover
@@ -143,7 +146,7 @@ nav#nav-mobile
     text-align: left
 
     a
-        color: lighten($dark, 30%)
+        color: lighten($grey, 30%)
 
 // border-bottom animation
 

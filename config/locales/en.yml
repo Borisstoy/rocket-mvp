@@ -9,6 +9,9 @@ en:
   project_description: "Describe briefly your project"
   project_budget: "Your budget"
 
+  general:
+    get_in_touch: "Get in touch"
+
   shared:
     navbar:
       sumbit_project: "Submit your project"
