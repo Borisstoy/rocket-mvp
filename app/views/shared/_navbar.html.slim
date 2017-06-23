@@ -7,6 +7,7 @@ nav#nav-main
     = link_to t('.our_service'), root_path
     = link_to t('.sumbit_project'), new_project_request_path
     = link_to t('.qa'), faq_path
+    = link_to t('.about'), about_path
 
     - if I18n.locale == I18n.default_locale
       = link_to "English", { :locale=>'en' }

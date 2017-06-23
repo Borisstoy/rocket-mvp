@@ -4,6 +4,7 @@ Rails.application.routes.draw do
     #pages
     root to: 'pages#home'
     get 'qa' => 'pages#faq', as: :faq
+    get 'about' => 'pages#about', as: :about
     #projects
     resources :project_requests
   end
