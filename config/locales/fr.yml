@@ -33,3 +33,19 @@ fr:
   project_requests:
     new:
       new_proj_title: "Décrivez votre projet"
+
+  home:
+    mission_title: 'What we achieve'
+
+    value_title: 'We stand for'
+    val_1_title: 'Entrepreneurship'
+    val_2_title: 'Business first'
+    val_3_title: 'Analytics'
+    val_4_title: 'Confidentiality'
+
+    val_1_content: "Nous sommes des entrepreneurs au service d'entrepreneurs. L'optimisation des ressources et la rapidité d'exécution sont nos contraintes principales."
+    val_2_content: "La technolgie est au service du business. Jamais l'inverse. Nos méthodes de développements sont optimisées pour chaque phase de votre projet."
+    val_3_content: "Quantitatif Qualitative. Nos réalisations sont systématiquement livrés avec des outils de gestion et d'analyse les plus performants du marché."
+    val_4_content: "La dscrétion dans une étape aussi cruciale de votre projet, est au coeur de notre engagement."
+
+    contact_title: 'Contact'
