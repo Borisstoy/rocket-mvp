@@ -21,7 +21,7 @@ $screen-md:         768px;
 $screen-lg:         900px;
 
 .grow { transition: all .2s ease-in-out; }
-.grow:hover { transform: scale(1.1); }
+.grow:hover { transform: scale(1.4); }
 
 @mixin border-radius {
   -webkit-border-radius: .2em!important;
