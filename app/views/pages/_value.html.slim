@@ -4,21 +4,25 @@
     h1= t('home.value_title')
 
     .nav-on-value
-      h4= t('home.val_1_title')
-      h4= t('home.val_2_title')
-      h4= t('home.val_3_title')
-      h4= t('home.val_4_title')
+      #val-box-1
+        h4= t('home.val_1_title')
+      #val-box-2
+        h4= t('home.val_2_title')
+      #val-box-3
+        h4= t('home.val_3_title')
+      #val-box-4
+        h4= t('home.val_4_title')
 
   .right-panel
 
-    .val-box.val-box-1
+    .val-box-1.val-box
       p= t('home.val_1_content')
 
-    .val-box.val-box-2
+    .val-box-2.val-box.hidden
       p= t('home.val_2_content')
 
-    .val-box.val-box-3
+    .val-box-3.val-box.hidden
       p= t('home.val_3_content')
 
-    .val-box.val-box-4
+    .val-box-4.val-box.hidden
       p= t('home.val_4_content')
