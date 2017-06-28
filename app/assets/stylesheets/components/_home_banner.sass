@@ -30,18 +30,27 @@
 
         a
             display: inline-block
-            color: $grey
+            color: $secondary
             margin-top: 2rem
             font-size: 1.2em
+            border: 2px solid $secondary
+            padding: .6em 1em
+            border-radius: .2em
+            transition: all 0.3s ease 0s
 
             &:after
                 font-family: FontAwesome
                 content: '\f178'
                 margin-left: 1rem
-                color: $branding
+                color: $secondary
+
+            &:hover:after
+                color: #fff
 
             &:hover
-                color: darken($grey, 20%)
+                color: #fff
+                background: darken($secondary, 10%)
+                border: 2px solid darken($secondary, 10%)
 
     video
         position: fixed
@@ -83,11 +92,11 @@
                     +alignitems-center
                     font-family: FontAwesome
                     content: '\f0d7'
-                    color: #fff
+                    color: $grey
                     border-radius: 50%
                     height: 50%
                     width: 50%
-                    background: $branding
+                    background: lighten($grey, 80%)
                     -webkit-box-shadow: 0px 7px 36px 6px rgba(0, 0, 0, 0.17)
                     -moz-box-shadow: 0px 7px 36px 6px rgba(0, 0, 0, 0.17)
                     box-shadow: 0px 7px 36px 6px rgba(0, 0, 0, 0.17)

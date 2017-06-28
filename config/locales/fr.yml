@@ -14,8 +14,8 @@ fr:
 
   shared:
     navbar:
-      sumbit_project: "Soumettez votre projet"
-      our_service: "Notre offre"
+      sumbit_project: "Contact"
+      our_service: "Offre"
       about: "À propos"
       qa: "FAQ"
 
