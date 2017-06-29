@@ -1,40 +1,44 @@
+.active-val
+    h5
+        color: $secondary
+
 .value-container
-    +flexbox
-    +flexwrap
 
-    .left-panel
-        width: 35%
-        text-align: right
-        padding: 0 3em 0 0
+    h1
+        color: $dark
+        font-weight: 700
+        text-align: center
 
-        h1
-            color: $branding
-            font-weight: 700
-            font-size: 3em
+    .panel
+        +flexbox
+        +alignitems-start
+        +justifycontent-center
+        min-height: 230px
 
-        .nav-on-value
+        .left-side
+            .nav-on-value
+                +flexbox
+                +flexdirection-column
 
-            h4
-                cursor: pointer
+                h5
+                    cursor: pointer
+                    font-size: .9em
 
-    .right-panel
-        width: 65%
+        .right-side
 
-        .val-box
-            background: #fff
-            border: 1px solid $light-grey
-            width: 350px
-            +border-radius
-            padding: 3em 1em
-            position: absolute
+            .val-box
+                background: #fff
+                width: 350px
+                +border-radius
+                padding: 3em 1em
 
-        .val-box-1
-
-
-        .val-box-2
+            .val-box-1
 
 
-        .val-box-3
+            .val-box-2
 
 
-        .val-box-4
+            .val-box-3
+
+
+            .val-box-4
