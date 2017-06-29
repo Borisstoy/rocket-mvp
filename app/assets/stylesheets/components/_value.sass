@@ -1,8 +1,17 @@
 .active-val
     h5
-        color: $secondary
+        color: $branding!important
+        padding: .7em
+        +border-radius
+        display: inline-block
+        background: #fff
+        -webkit-box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.13)
+        -moz-box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.13)
+        box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.13)
 
 .value-container
+    background-color: $light-bg
+    padding: 2em 0 0 0
 
     h1
         color: $dark
@@ -14,15 +23,49 @@
         +alignitems-start
         +justifycontent-center
         min-height: 230px
+        background-color: $light-bg
 
         .left-side
+            width: 200px
+
             .nav-on-value
                 +flexbox
                 +flexdirection-column
 
                 h5
                     cursor: pointer
+                    color: $grey
                     font-size: .9em
+                    padding: .7em
+                    margin: 0
+                    width: 180px
+                    +flexbox
+                    +alignitems-center
+                    transition: all .2s ease-in-out
+
+                    &:hover, &:active, &:focus,
+                        color: darken($grey, 60%)
+
+                    &:before
+                        padding-right: .6em
+                        font-family: FontAwesome
+                        width: 30px
+
+                .entr
+                    &:before
+                        content: '\f135'
+
+                .buz
+                    &:before
+                        content: '\f153'
+
+                .anal
+                    &:before
+                        content: '\f201'
+
+                .conf
+                    &:before
+                        content: '\f023'
 
         .right-side
 
@@ -30,15 +73,9 @@
                 background: #fff
                 width: 350px
                 +border-radius
-                padding: 3em 1em
+                padding: 1.5em 1em
+                -webkit-box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.13)
+                -moz-box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.13)
+                box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.13)
+                border-left: 2px solid $secondary
 
-            .val-box-1
-
-
-            .val-box-2
-
-
-            .val-box-3
-
-
-            .val-box-4
