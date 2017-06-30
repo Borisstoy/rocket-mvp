@@ -1,33 +1,35 @@
-h1= t('home.value_title')
+.panel-values
 
-.panel
+  .val-title
+    h1= t('home.value_title')
 
-  .left-side
-
-    .nav-on-value
-      #val-box-1.active-val
+  .val-row
+    .val-box-1.options
+      .content
         h5 class=('entr')
           = t('home.val_1_title')
-      #val-box-2
+        p= t('home.val_1_content')
+
+    .val-box-2.options
+      .content
         h5 class=('buz')
           = t('home.val_2_title')
-      #val-box-3
+        p= t('home.val_2_content')
+
+  .val-row
+    .val-box-3.options
+      .content
         h5 class=('anal')
           = t('home.val_3_title')
-      #val-box-4
+        p= t('home.val_3_content')
+
+    .val-box-4.options
+      .content
         h5 class=('conf')
           = t('home.val_4_title')
+        p= t('home.val_4_content')
 
-  .right-side
 
-    .val-box-1.val-box
-      p= t('home.val_1_content')
 
-    .val-box-2.val-box.hidden
-      p= t('home.val_2_content')
 
-    .val-box-3.val-box.hidden
-      p= t('home.val_3_content')
 
-    .val-box-4.val-box.hidden
-      p= t('home.val_4_content')
