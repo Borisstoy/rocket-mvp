@@ -1,81 +1,67 @@
-.active-val
-    h5
-        color: $branding!important
-        padding: .7em
-        +border-radius
-        display: inline-block
-        background: #fff
-        -webkit-box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.13)
-        -moz-box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.13)
-        box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.13)
-
 .value-container
-    background-color: $light-bg
-    padding: 2em 0 0 0
+    position: relative
+    height: 600px
+    background: #f9f9f9
 
-    h1
-        color: $dark
-        font-weight: 700
-        text-align: center
+    .val-title
+        position: absolute
+        top: 0
+        right: 0
+        left: 0
+        display: none
 
-    .panel
-        +flexbox
-        +alignitems-start
-        +justifycontent-center
-        min-height: 230px
-        background-color: $light-bg
+    .panel-values
+        position: absolute
+        max-width: 950px
+        background: #fff
+        right: 0
+        left: 0
+        top: -75px
+        margin: 0 auto
 
-        .left-side
-            width: 200px
+        @media (max-width: $screen-md)
+            max-width: 100%
+            position: static
 
-            .nav-on-value
-                +flexbox
-                +flexdirection-column
+        .val-row
+            width: 100%
+            +flexbox
+            height: 425px
+            +alignitems-center
 
-                h5
-                    cursor: pointer
-                    color: $grey
-                    font-size: .9em
-                    padding: .7em
-                    margin: 0
-                    width: 180px
-                    +flexbox
-                    +alignitems-center
-                    transition: all .2s ease-in-out
+            @media (max-width: $screen-md)
+                display: block
 
-                    &:hover, &:active, &:focus,
-                        color: darken($grey, 60%)
+            .val-box-1
+                width: 50%
+                padding: 3em 1.5em 1.5em 3em
 
-                    &:before
-                        padding-right: .6em
-                        font-family: FontAwesome
-                        width: 30px
+                @media (max-width: $screen-md)
+                    width: 100%
+                    padding: 2em
 
-                .entr
-                    &:before
-                        content: '\f135'
+            .val-box-2
+                width: 50%
+                padding: 3em 3em 1.5em 1.5em
 
-                .buz
-                    &:before
-                        content: '\f153'
+                @media (max-width: $screen-md)
+                    width: 100%
+                    padding: 2em
 
-                .anal
-                    &:before
-                        content: '\f201'
+            .val-box-3
+                width: 50%
+                padding: 1.5em 1.5em 3em 3em
 
-                .conf
-                    &:before
-                        content: '\f023'
+                @media (max-width: $screen-md)
+                    width: 100%
+                    padding: 2em
 
-        .right-side
+            .val-box-4
+                width: 50%
+                padding: 1.5em 3em 3em 1.5em
 
-            .val-box
-                background: #fff
-                width: 350px
-                +border-radius
-                padding: 1.5em 1em
-                -webkit-box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.13)
-                -moz-box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.13)
-                box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.13)
-                border-left: 2px solid $secondary
+                @media (max-width: $screen-md)
+                    width: 100%
+                    padding: 2em
+
 
