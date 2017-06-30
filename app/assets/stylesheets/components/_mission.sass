@@ -1,37 +1,33 @@
 .mission-container
-    height: 550px
+    height: 650px
     background: $branding
     color: #fff
+    text-align: left
     +flexbox
-    +justifycontent-center
+    +flexdirection-column
     +alignitems-center
+    +justifycontent-center
 
     @media (max-width: $screen-md)
         height: auto
         display: block
         padding: 2em
 
-    .left-side
-        width: 30%
+    .top
+        width: 60%
 
         @media (max-width: $screen-md)
             width: 100%
 
-        h1
-            text-align: center
-
-            @media (max-width: $screen-md)
-                text-align: left
-
-    .right-side
-        width: 70%
+    .bottom
+        width: 60%
+        padding-bottom: 4em
 
         @media (max-width: $screen-md)
             width: 100%
+            padding-bottom: 0
 
         p
             font-weight: 300
-            max-width: 70%
 
             @media (max-width: $screen-md)
-                max-width: 100%

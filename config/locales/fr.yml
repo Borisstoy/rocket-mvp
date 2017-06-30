@@ -36,7 +36,7 @@ fr:
 
   home:
     mission_title: 'Mission'
-    mission_content: "Nous accompagnons les entrepreneurs à emmener leurs idées de 0 à 1. Notre équipe concentre trois compétences essentielles pour la résussite de votre start-up: développement web et mobile, marketing et business. Notre offre synthétise les meilleurs pratiques technologiques et de création d'entreprise. Vous votre Avant d'investir du temps et de l'argent dans le dé un projet nous pensons que le meilleur moyen de lancer développons . N Caractérisé son marché l'idée à la réalisation de leur application web et mobile. Axé sur les meilleurs pratiques de 0 à 1. Adapté aux startup et aux contraintes financières de jeunes structures."
+    mission_content_html: "Nous accompagnons les entrepreneurs à emmener leurs idées de 0 à 1. Notre équipe concentre trois compétences essentielles pour la résussite de votre start-up: développement web et mobile, marketing et business. <br><br>Notre offre synthétise les meilleurs pratiques technologiques et de création d'entreprise. Vous votre Avant d'investir du temps et de l'argent dans le dé un projet nous pensons que le meilleur moyen de lancer développons . <br><br>Caractérisé son marché l'idée à la réalisation de leur application web et mobile. Axé sur les meilleurs pratiques de 0 à 1. Adapté aux startup et aux contraintes financières de jeunes structures."
 
     value_title: 'We stand for'
     val_1_title: 'Entrepreneurship'
