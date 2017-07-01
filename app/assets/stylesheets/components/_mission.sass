@@ -7,6 +7,7 @@
     +flexdirection-column
     +alignitems-center
     +justifycontent-center
+    position: relative
 
     @media (max-width: $screen-md)
         height: auto
@@ -29,5 +30,34 @@
 
         p
             font-weight: 300
+            color: #e6e6e6
 
             @media (max-width: $screen-md)
+
+    .gradient-box-1
+        position: absolute
+        height: 300px
+        width: 100%
+        transform: skewY(-9deg)
+        bottom: -150px
+        background: $secondary /* Old browsers */
+        background: -moz-linear-gradient(-45deg, $secondary 0%, $branding 100%) /* FF3.6-15 */
+        background: -webkit-linear-gradient(-45deg, $secondary 0%,$branding 100%) /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(135deg, $secondary 0%,$branding 100%) /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$secondary', endColorstr='$branding',GradientType=1 ) /* IE6-9 fallback on horizontal gradient */
+
+        @media (max-width: $screen-md)
+            display: none
+
+    .circle-gradient
+        position: absolute
+        top: 50px
+        left: 305px
+        border-radius: 50%
+        height: 80px
+        width: 80px
+        background: $secondary /* Old browsers */
+        background: -moz-linear-gradient(-45deg, $secondary 0%, $branding 100%) /* FF3.6-15 */
+        background: -webkit-linear-gradient(-45deg, $secondary 0%,$branding 100%) /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(135deg, $secondary 0%,$branding 100%) /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$secondary', endColorstr='$branding',GradientType=1 ) /* IE6-9 fallback on horizontal gradient */
