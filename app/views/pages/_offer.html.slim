@@ -1,2 +1,32 @@
-.offer-container
-  h1= t('home.offer_title')
+h2= t('home.offer_title')
+
+.packages-container
+  .package.pack-1
+    .title
+      h2= t('home.pack_1_title')
+    .sub-title
+      h3= t('home.pack_1_sub')
+    .description
+      p= t('home.pack_1_desc')
+    .items
+      span= t('home.pack_1_i_1')
+      span= t('home.pack_1_i_2')
+      span= t('home.pack_1_i_3')
+      span= t('home.pack_1_i_4')
+      h5= t('home.pack_1_price')
+    .cta
+      h3= t('home.pack_1_cta')
+
+  .package.pack-2
+    .title
+      h2= t('home.pack_2_title')
+    .sub-title
+      h3= t('home.pack_2_sub')
+    .description
+      p= t('home.pack_2_desc')
+    .items
+      span= t('home.pack_2_i_1')
+      span= t('home.pack_2_i_2')
+      h5= t('home.pack_2_price')
+    .cta
+      h3= t('home.pack_2_cta')

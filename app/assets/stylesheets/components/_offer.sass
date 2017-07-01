@@ -1,1 +1,31 @@
 .offer-container
+    height: 600px
+    +flexbox
+    +alignitems-center
+    +justifycontent-center
+    +flexdirection-column
+
+    .packages-container
+        +flexbox
+
+        .package
+            width: 400px
+            background: #fff
+
+        .pack-1
+            .title
+            .sub-title
+            .description
+            .items
+                +flexbox
+                +flexdirection-column
+            .cta
+
+        .pack-2
+            .title
+            .sub-title
+            .description
+            .items
+                +flexbox
+                +flexdirection-column
+            .cta

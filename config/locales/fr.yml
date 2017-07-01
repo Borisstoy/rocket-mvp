@@ -49,6 +49,23 @@ fr:
     val_3_content: "Quantitatif Qualitative. Nos réalisations sont systématiquement livrés avec des outils de gestion et d'analyse les plus performants du marché."
     val_4_content: "La discrétion dans une étape aussi cruciale de votre projet, est au coeur de notre engagement."
 
-    offer_title: 'Notre offre'
+    offer_title: ' Offre'
+    pack_1_title: "Basic"
+    pack_1_sub: "Test your concept"
+    pack_1_desc: "Valider une adéquation problème/solution. Analyser sa cible clientèle. Fédérer une équipe. Trouver des financements"
+    pack_1_i_1: "Landing page"
+    pack_1_i_2: "Blog"
+    pack_1_i_3: "Analytics"
+    pack_1_i_4: "Tutorials"
+    pack_1_price: "$900"
+    pack_1_cta: "Test my concept"
+
+    pack_2_title: "Premium"
+    pack_2_sub: "Test a full prototype"
+    pack_2_desc: "Valider une adéquation produit / marché. Etablir de premiers revenus"
+    pack_2_i_1: "Functional web app"
+    pack_2_i_2: "Backend"
+    pack_2_price: "$3000 - $8000"
+    pack_2_cta: "Generate revenue"
 
     contact_title: 'Vous souhaitez prendre contact'
