@@ -4,6 +4,7 @@ h1= t('home.offer_title')
   .package.pack-1.grow
     .title
       h2= t('home.pack_1_title')
+      h5= t('home.pack_1_price')
     .sub-title
       h4= t('home.pack_1_sub')
     .description
@@ -13,13 +14,14 @@ h1= t('home.offer_title')
       span= t('home.pack_1_i_2')
       span= t('home.pack_1_i_3')
       span= t('home.pack_1_i_4')
-      h5= t('home.pack_1_price')
     .cta
-      h3= t('home.pack_1_cta')
+      span class=('basic-offer-btn')
+        = t('home.pack_1_cta')
 
   .package.pack-2.grow
     .title
       h2= t('home.pack_2_title')
+      h5= t('home.pack_2_price')
     .sub-title
       h4= t('home.pack_2_sub')
     .description
@@ -27,6 +29,6 @@ h1= t('home.offer_title')
     .items
       span= t('home.pack_2_i_1')
       span= t('home.pack_2_i_2')
-      h5= t('home.pack_2_price')
     .cta
-      h3= t('home.pack_2_cta')
+      span class=('premium-offer-btn')
+        = t('home.pack_2_cta')

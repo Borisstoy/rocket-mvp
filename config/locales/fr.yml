@@ -61,11 +61,11 @@ fr:
     pack_1_cta: "Test my concept"
 
     pack_2_title: "Premium"
+    pack_2_price: "$3000 - $8000"
     pack_2_sub: "Test a full prototype"
     pack_2_desc: "Valider une adéquation produit / marché. Etablir de premiers revenus"
     pack_2_i_1: "Functional web app"
     pack_2_i_2: "Backend"
-    pack_2_price: "$3000 - $8000"
     pack_2_cta: "Generate revenue"
 
     contact_title: 'Vous souhaitez prendre contact'
