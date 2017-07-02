@@ -4,16 +4,43 @@
     +alignitems-center
     +justifycontent-center
     +flexdirection-column
+    position: relative
 
     @media (max-width: $screen-md)
         display: block
-    .offer-title
-        h1
-            margin-bottom: 5rem
+        position: static
+
+    .offer-half-circle
+        display: inline-block
+        position: absolute
+        top: 0
+        height: 700px
+        width: 100%
+        border-bottom-left-radius: 700px * 2
+        border-bottom-right-radius: 700px * 2
+        background: $secondary /* Old browsers */
+        background: -moz-linear-gradient(-45deg, $secondary 0%, $branding 100%) /* FF3.6-15 */
+        background: -webkit-linear-gradient(-45deg, $secondary 0%,$branding 100%) /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(135deg, $secondary 0%,$branding 100%) /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$secondary', endColorstr='$branding',GradientType=1 ) /* IE6-9 fallback on horizontal gradient */
 
         @media (max-width: $screen-md)
+            display: none
+
+    .offer-title
+        position: relative
+
+        @media (max-width: $screen-md)
+            position: static
             padding: 2em 2em 0
-            margin-bottom: 0
+            border-top: 1px solid $grey
+
+        h1
+            margin: 5rem 0
+            color: #fff
+
+            @media (max-width: $screen-md)
+                color: $dark
 
     .packages-container
         +flexbox
