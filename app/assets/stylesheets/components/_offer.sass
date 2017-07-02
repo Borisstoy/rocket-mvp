@@ -1,13 +1,18 @@
 .offer-container
-    height: 600px
+    height: auto
     +flexbox
     +alignitems-center
     +justifycontent-center
     +flexdirection-column
 
     @media (max-width: $screen-md)
-        height: auto
         display: block
+
+    h1
+        margin-bottom: 5rem
+
+        @media (max-width: $screen-md)
+            margin-bottom: 1rem
 
     .packages-container
         +flexbox
@@ -17,22 +22,58 @@
 
         .package
             width: 400px
+            height: 545px
             background: #fff
+            padding: 3em
+            font-size: .9em
+            -webkit-box-shadow: 0px 10px 25px 3px rgba(0,0,0,0.09)
+            -moz-box-shadow: 0px 10px 25px 3px rgba(0,0,0,0.09)
+            box-shadow: 0px 10px 25px 3px rgba(0,0,0,0.09)
+
+            @media (max-width: $screen-md)
+                width: auto
+
+            h2
+                margin: 0
+
+            h3
+                margin: 0
+
+        .title, .sub-title, .description, .items, .cta
+            padding: .8em 0
+
+        .items
+            +flexbox
+            +flexdirection-column
+            font-size: 1.1em
+            line-height: 2.2em
 
         .pack-1
+            margin-right: 3rem
+
+            @media (max-width: $screen-md)
+                margin-right: 0
+                margin: 1rem
+
             .title
+                color: $secondary
+
             .sub-title
             .description
             .items
-                +flexbox
-                +flexdirection-column
             .cta
 
         .pack-2
+            margin-left: 3rem
+
+            @media (max-width: $screen-md)
+                margin-left: 0
+                margin: 1rem
+
             .title
+                color: $branding
+
             .sub-title
             .description
             .items
-                +flexbox
-                +flexdirection-column
             .cta
