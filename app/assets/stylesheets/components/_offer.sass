@@ -5,8 +5,15 @@
     +justifycontent-center
     +flexdirection-column
 
+    @media (max-width: $screen-md)
+        height: auto
+        display: block
+
     .packages-container
         +flexbox
+
+        @media (max-width: $screen-md)
+            +flexdirection-column
 
         .package
             width: 400px

@@ -49,13 +49,29 @@
         @media (max-width: $screen-md)
             display: none
 
-    .circle-gradient
+    .circle-gradient-1
         position: absolute
-        top: 50px
-        left: 305px
+        bottom: 72px
+        left: 195px
         border-radius: 50%
-        height: 80px
-        width: 80px
+        height: 100px
+        width: 100px
+        background: $secondary /* Old browsers */
+        background: -moz-linear-gradient(-45deg, $secondary 0%, $branding 100%) /* FF3.6-15 */
+        background: -webkit-linear-gradient(-45deg, $secondary 0%,$branding 100%) /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(135deg, $secondary 0%,$branding 100%) /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$secondary', endColorstr='$branding',GradientType=1 ) /* IE6-9 fallback on horizontal gradient */
+
+        @media (max-width: $screen-md)
+            display: none
+
+    .circle-gradient-2
+        position: absolute
+        bottom: -5px
+        right: 87px
+        border-radius: 50%
+        height: 180px
+        width: 180px
         background: $secondary /* Old browsers */
         background: -moz-linear-gradient(-45deg, $secondary 0%, $branding 100%) /* FF3.6-15 */
         background: -webkit-linear-gradient(-45deg, $secondary 0%,$branding 100%) /* Chrome10-25,Safari5.1-6 */
