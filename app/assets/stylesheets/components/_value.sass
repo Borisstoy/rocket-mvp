@@ -7,18 +7,20 @@
         position: static
         height: auto
 
-    .val-title
+    .top-stripe
         position: absolute
-        top: 30px
-        right: 0
+        width: 950px
+        height: 30px
+        bottom: -30px
         left: 0
-        text-align: center
+        right: 0
+        margin: 0 auto
         background: #fff
+        z-index: 99
 
         @media (max-width: $screen-md)
-            position: static
-            text-align: left
-            padding: 2em 2em 0
+            display: none
+
 
     .panel-values
         position: absolute
@@ -32,6 +34,19 @@
         @media (max-width: $screen-md)
             max-width: 100%
             position: static
+
+        .val-title
+            position: absolute
+            top: 30px
+            right: 0
+            left: 0
+            text-align: center
+            background: #fff
+
+            @media (max-width: $screen-md)
+                position: static
+                text-align: left
+                padding: 2em 2em 0
 
         .val-row-1
             width: 100%
