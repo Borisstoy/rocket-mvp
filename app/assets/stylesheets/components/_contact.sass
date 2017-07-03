@@ -1,8 +1,19 @@
 .contact-container
     height: 400px
     text-align: center
-    padding-top: 5em
+    padding-top: 8em
+    position: relative
 
     @media (max-width: $screen-md)
         height: auto
+
+    &:before
+        content: ''
+        position: absolute
+        left: 0
+        right: 0
+        top: 600px
+        height: 2000px
+        background: #f6f9fc
+        transform: skew(0,-12deg)
 

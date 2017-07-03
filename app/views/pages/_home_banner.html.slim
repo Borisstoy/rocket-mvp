@@ -4,7 +4,8 @@
   .banner-cta
     h1= t('.banner_intro')
     h5= t('.banner_prop')
-    = link_to t('general.get_in_touch'), new_project_request_path, class: 'grow'
+
+    = link_to t('general.get_in_touch'), new_project_request_path(@new_project), class: 'grow', remote: true, 'data-toggle' =>  "modal", 'data-target' => '#modal-window'
 
   .arrow-down
     .arrow-container

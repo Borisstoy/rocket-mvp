@@ -39,6 +39,7 @@
     <%= render 'shared/flashes' %>
     <div id= main-wrapper >
       <%= yield %>
+      <div id="modal-window" class="modal fade" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"></div>
     </div>
     <%= javascript_include_tag 'application' %>
     <%= render "shared/analytics" %>

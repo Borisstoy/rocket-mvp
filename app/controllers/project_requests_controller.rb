@@ -2,22 +2,21 @@ class ProjectRequestsController < ApplicationController
   skip_before_action :authenticate_user!, only: [ :new, :create ]
 
   def new
-    @project_request = ProjectRequest.new
+    @new_project = ProjectRequest.new
+    respond_to do |format|
+      format.html
+      format.js
+    end
   end
 
   def create
-    @project_request = ProjectRequest.new project_requests_params
-    if @project_request.save
-      redirect_to root_path, notice: t('.project_save')
-    else
-      render :new
-    end
+    @new_project = ProjectRequest.new project_requests_params
   end
 
   private
 
   def project_requests_params
-    params.require(:project_request).permit(:name,
+    params.require(:new_project).permit(:name,
                                             :last_name,
                                             :email,
                                             :title,

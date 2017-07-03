@@ -20,9 +20,9 @@ gem 'autoprefixer-rails'
 gem 'slim-rails', '~> 3.1', '>= 3.1.1'
 gem 'i18n'
 
-gem 'font-awesome-rails'
 gem 'coffee-rails'
 gem 'newrelic_rpm'
+gem 'font-awesome-rails'
 
 group :development, :test do
   gem 'binding_of_caller'
