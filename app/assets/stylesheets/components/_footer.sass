@@ -1,23 +1,34 @@
 .footer-container
     width: 100%
-    height: 100px
-    color: $grey
-    +flexbox
-    +flexdirection-column
-    +alignitems-center
-    +justifycontent-center
+    height: 80px
+    color: lighten($grey, 30%)
     background: #fff
 
+    @media (max-width: $screen-md)
+        height: auto
+
     .footer-content
+        font-weight: 300
+        width: 950px
         font-size: .9em
-        position: relative
+        +flexbox
+        +alignitems-center
+        +justifycontent-spacebetween
+        margin: 0 auto
+        border-top: 1px solid lighten($grey, 30%)
+        padding: 1em 0
 
-        img
-            width: 40px
+        @media (max-width: $screen-md)
+            width: auto
+            margin-top: 1rem
+            +flexdirection-column
 
-        span
-            position: absolute
-            top: 22px
-            left: 35px
-            font-size: .9em
-            color: $branding
+        a
+            color: lighten($grey, 30%)
+
+            @media (max-width: $screen-md)
+                margin-top: 1rem
+
+
+
+

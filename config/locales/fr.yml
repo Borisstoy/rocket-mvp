@@ -36,7 +36,7 @@ fr:
 
   home:
     mission_title: 'Mission'
-    mission_content_html: "Nous accompagnons les entrepreneurs à mener leurs idées de 0 à 1. Notre équipe concentre trois compétences essentielles pour la résussite de votre start-up: développement web et mobile, marketing et business intelligence.<br><br>Notre offre synthétise les meilleurs pratiques technologiques, adaptée aux startup et aux contraintes financières de jeunes structures."
+    mission_content_html: "Entrepreneurs, nous vous accompagnns à mener votre idée de 0 à 1. Notre équipe concentre trois compétences essentielles pour la résussite de votre start-up: développement web et mobile, marketing et business intelligence.<br><br> Notre offre synthétise les meilleurs pratiques technologiques, adaptée aux startup et aux contraintes financières de jeunes structures.<br><br> Convaincus de l'importance de tester votre concept avant d'investir dans un processus de développement complet, nous nous focalisons sur la faisabilité de votre projet et de son exécution."
 
     value_title: 'Nos valeurs'
     val_1_title: 'Entrepreneuriat'
@@ -51,7 +51,7 @@ fr:
 
     offer_title: ' Offre'
     pack_1_title: "Basic"
-    pack_1_sub: "Testez votre concept sur un marché donné"
+    pack_1_sub: "Testez votre concept"
     pack_1_desc: "Valider une adéquation problème/solution. Analyser sa cible clientèle. Fédérer une équipe. Trouver des financements"
     pack_1_i_1: "Landing page"
     pack_1_i_2: "Blog"
@@ -69,4 +69,4 @@ fr:
     pack_2_cta: "Generate revenue"
 
     contact_title: 'Convaincu?'
-    contact_content: "Nous sommes une équipe de professionnels experts dans l'analyse de vos besoins"
+    contact_content: "Nous sommes une équipe de professionnels experts dans la construction de prototypes et de leur test marché."
