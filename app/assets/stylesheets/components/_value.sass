@@ -1,37 +1,35 @@
 .value-container
-    position: relative
-    height: 477px
+    height: 700px
     background: $very-light-grey
 
     @media (max-width: $screen-md)
         position: static
         height: auto
 
+    .val-title
+        text-align: center
+        padding: 2em 0
+
+        h5
+            line-height: 1.7em
+            font-size: 1.3em
+            color: $grey
+            font-weight: 300
+
+            @media (max-width: $screen-md)
+                margin-bottom: 1rem
+                font-size: 1em
+
+        @media (max-width: $screen-md)
+            padding: 2em 2em 0
+
     .panel-values
-        position: absolute
         max-width: 950px
         background: #fff
-        right: 0
-        left: 0
-        top: -75px
         margin: 0 auto
 
         @media (max-width: $screen-md)
             max-width: 100%
-            position: static
-
-        .val-title
-            position: absolute
-            top: 30px
-            right: 0
-            left: 0
-            text-align: center
-            background: #fff
-
-            @media (max-width: $screen-md)
-                position: static
-                text-align: left
-                padding: 2em 2em 0
 
         .val-row-1
             width: 100%
@@ -39,7 +37,7 @@
             +alignitems-start
 
             @media (max-width: $screen-md)
-                display: block
+                +flexdirection-column
                 height: auto
 
         .val-row-2
@@ -48,7 +46,7 @@
             +alignitems-start
 
             @media (max-width: $screen-md)
-                display: block
+                +flexdirection-column
                 height: auto
 
         .options
@@ -72,6 +70,7 @@
 
             p
                 font-weight: 300
+                color: $grey
 
             h5
                 font-weight: 600
@@ -104,11 +103,11 @@
 
         .val-box-1
             width: 50%
-            padding: 8em 1.5em 1.5em 3em
+            padding: 4em 1.5em 1.5em 3em
 
         .val-box-2
             width: 50%
-            padding: 8em 3em 1.5em 1.5em
+            padding: 4em 3em 1.5em 1.5em
 
         .val-box-3
             width: 50%

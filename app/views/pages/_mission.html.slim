@@ -1,7 +1,24 @@
-.mission-content
-  .top
+.mission-content.clearfix
+  .left-col
     h1= t('home.mission_title')
+    h5= t('home.mission_subtitle')
 
-  .bottom
-    p= t('home.mission_content_html')
+    .mission-box
+      .banner.banner-1
+        = image_tag 'technologies.svg'
+      .text
+        p= t('home.mission_content_2')
+
+  .right-col
+    .mission-box
+      .banner.banner-2
+        = image_tag 'code.svg'
+      .text
+        p= t('home.mission_content_1')
+
+    .mission-box
+      .banner.banner-3
+        = image_tag 'startup.svg'
+      .text
+        p= t('home.mission_content_3')
 

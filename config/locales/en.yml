@@ -35,10 +35,14 @@ en:
       new_proj_title: "Describe your project"
 
   home:
-    mission_title: 'Mission'
-    mission_content_html: "Nous accompagnons les entrepreneurs à emmener leurs idées de 0 à 1. Notre équipe concentre trois compétences essentielles pour la résussite de votre start-up: développement web et mobile, marketing et business. <br><br>Notre offre synthétise les meilleurs pratiques technologiques et de création d'entreprise. Vous votre Avant d'investir du temps et de l'argent dans le dé un projet nous pensons que le meilleur moyen de lancer développons. <br><br> Caractérisé son marché l'idée à la réalisation de leur application web et mobile. Axé sur les meilleurs pratiques de 0 à 1. Adapté aux startup et aux contraintes financières de jeunes structures."
+    mission_title: 'Notre mission'
+    mission_subtitle: 'Tester votre projet, développer votre prototype, vous fournir les outils de marketing digital.'
+    mission_content_1: "Entrepreneurs, nous vous accompagnons à mener votre idée de 0 à 1. Notre équipe concentre trois compétences essentielles pour la résussite de votre start-up: développement web et mobile, marketing et business intelligence."
+    mission_content_2: "Notre offre synthétise les meilleurs pratiques technologiques, adaptée aux startup et aux contraintes financières de jeunes structures."
+    mission_content_3: "Convaincus de l'importance de tester votre concept avant d'investir dans un processus de développement complet, nous nous focalisons sur la faisabilité de votre projet sur son exécution."
 
     value_title: 'We stand for'
+    value_subtitle: "Notre engagement, le fil conducteur de ntore démarche"
     val_1_title: 'Entrepreneurship'
     val_2_title: 'Business first'
     val_3_title: 'Analytics'

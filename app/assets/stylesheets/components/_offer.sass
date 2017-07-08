@@ -1,7 +1,7 @@
 .offer-container
     height: auto
     background: $very-light-grey
-    padding: 2em 0
+    padding: 0 0 2em 0
     +flexbox
     +alignitems-center
     +justifycontent-center
@@ -40,14 +40,15 @@
             background: #fff
             padding: 3em
             font-size: .9em
-            -webkit-box-shadow: 0px 10px 25px 3px rgba(0,0,0,0.09)
-            -moz-box-shadow: 0px 10px 25px 3px rgba(0,0,0,0.09)
-            box-shadow: 0px 10px 25px 3px rgba(0,0,0,0.09)
+            -webkit-box-shadow: 0px 10px 25px 3px rgba(0,0,0,0.04)
+            -moz-box-shadow: 0px 10px 25px 3px rgba(0,0,0,0.04)
+            box-shadow: 0px 10px 25px 3px rgba(0,0,0,0.04)
             position: relative
 
             @media (max-width: $screen-md)
                 width: auto
                 height: auto
+                padding: 2em
 
             h2
                 margin: 0
@@ -68,11 +69,16 @@
         .sub-title
             height: 50px
 
+            @media (max-width: $screen-md)
+                height: auto
+
             h4
                 line-height: 1.4em
 
         .description
             height: 75px
+            color: $grey
+            font-weight: 300
 
             @media (max-width: $screen-md)
                 height: auto
@@ -81,7 +87,7 @@
             +flexbox
             +flexdirection-column
             line-height: 2.2em
-            color: #949494
+            color: $grey
             font-weight: 300
 
             span

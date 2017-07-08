@@ -4,12 +4,13 @@
     +justifycontent-center
 
     .banner-cta
-        padding: 0 22em 0 5em
-        width: 1460px
+        padding: 0 22em 0 0
+        width: 950px
         text-align: left
 
         @media (max-width: $screen-md)
-            padding: 0
+            padding: 0 2em
+            width: auto
 
         h1
             font-size: 3em
@@ -38,6 +39,10 @@
             padding: .6em 1em
             +border-radius
             transition: all 0.3s ease 0s
+            white-space: nowrap
+
+            @media (max-width: $screen-md)
+                font-size: 1em
 
             &:after
                 font-family: FontAwesome
@@ -68,7 +73,6 @@
 
 
     .arrow-down
-        width: 100%
         bottom: 0
         right: 0
         left: 0
@@ -80,6 +84,8 @@
         .arrow-container
             +flexbox
             +justifycontent-end
+            width: 950px
+            margin: 0 auto
 
             .arrow
                 width: 120px

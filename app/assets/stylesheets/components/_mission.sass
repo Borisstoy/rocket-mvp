@@ -1,39 +1,105 @@
 .mission-container
-    height: 850px
-    color: $dark
-    text-align: left
-    +flexbox
-    +flexdirection-column
-    +alignitems-center
-    +justifycontent-center
-    position: relative
+    padding: 2em 0 0 0
+    height: auto
+    background: $very-light-grey
 
     @media (max-width: $screen-md)
         height: auto
-        display: block
-        padding: 2em
+        padding: 2em 0 2em 0
 
     .mission-content
         width: 950px
-        +flexbox
-        +flexdirection-column
-        +alignitems-center
-        +justifycontent-center
+        margin: 0 auto
+        padding-bottom: 2em
+        border-bottom: 1px solid lighten($grey, 45%)
 
         @media (max-width: $screen-md)
             width: auto
+            padding-bottom: 0
+            border-bottom: 0
 
-        .top
+        h1, h5
+            @media (max-width: $screen-md)
+                text-align: center
+
+        h5
+            line-height: 1.7em
+            font-size: 1.3em
+            color: $grey
+            margin-bottom: 6rem
+            font-weight: 300
+
+            @media (max-width: $screen-md)
+                margin-bottom: 1rem
+                font-size: 1em
+                width: auto
+                padding: 0 2em
+
+        .mission-box
+            font-weight: 300
+            color: $grey
+            background: #fff
+            height: 380px
+            margin-bottom: 3rem
+
+            @media (max-width: $screen-md)
+                width: auto
+                height: auto
+
+            .banner
+                height: 180px
+                +flexbox
+                +alignitems-center
+                +justifycontent-center
+
+                img
+                    width: 120px
+
+            .banner-1
+                background: #b6c1e0
+
+            .banner-2
+                background: #abdfdf
+
+            .banner-3
+                background: #fed99e
+
+
+            .text
+                padding: 1.5em 2em
+                height: 200px
+                +flexbox
+                +alignitems-center
+                +justifycontent-center
+
+                @media (max-width: $screen-md)
+                    height: auto
+
+        .left-col
+            width: 50%
+            float: left
+            padding-right: 2em
 
             @media (max-width: $screen-md)
                 width: 100%
+                float: none
+                padding: 0
 
-        .bottom
+        .right-col
+            width: 50%
+            float: right
+            padding-left: 2em
 
             @media (max-width: $screen-md)
                 width: 100%
+                float: none
+                padding: 0
 
-            p
-                font-weight: 300
-                color: $dark
+            .mission-box
+                &:first-child
+                    margin-top: 9rem
+
+                    @media (max-width: $screen-md)
+                        margin-top: 0
+                        width: auto
 
