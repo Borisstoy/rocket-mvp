@@ -1,29 +1,15 @@
 = simple_form_for @new_project, html: { class: 'proj_req_form' }  do |f|
-  = f.label I18n.t('.your_name')
-  = f.text_field :name
 
-  = f.label I18n.t('.your_last_name')
-  = f.text_field :last_name
+  = f.text_field :name,
+                 placeholder: I18n.t('.your_name'),
+                 class: 'name-form'
 
-  = f.label I18n.t('.your_email')
-  = f.text_field :email
+  = f.text_field :email,
+                 placeholder: I18n.t('.your_email'),
+                 class: 'email-form'
 
-  = f.label I18n.t('.project_title')
-  = f.text_field :title
+  = f.text_area :description,
+                placeholder:  I18n.t('.project_description'),
+                class: 'text-form'
 
-  = f.label I18n.t('.project_pain')
-  = f.text_area :pain
-
-  = f.label I18n.t('.project_target')
-  = f.text_field :target
-
-  = f.label I18n.t('.project_solution')
-  = f.text_area :solution
-
-  = f.label I18n.t('.project_description')
-  = f.text_area :description
-
-  = f.label I18n.t('.project_budget')
-  = f.input :budget, collection: budget_range
-
-  = f.button :submit
+  = f.button :submit, class: 'modal-form-btn'

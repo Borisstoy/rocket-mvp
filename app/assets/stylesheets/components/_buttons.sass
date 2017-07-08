@@ -6,7 +6,7 @@
     transition: all 0.3s ease 0s
     white-space: nowrap
 
-    &:hover, &:after, &:active
+    &:hover, &:focus, &:active
         background: darken($branding, 15%)
 
 .basic-offer-btn
@@ -19,7 +19,7 @@
     transition: all 0.3s ease 0s
     white-space: nowrap
 
-    &:hover, &:after, &:active
+    &:hover, &:focus, &:active
         background: darken($secondary, 15%)
 
 .premium-offer-btn
@@ -32,19 +32,34 @@
     transition: all 0.3s ease 0s
     white-space: nowrap
 
-    &:hover, &:after, &:active
+    &:hover, &:focus, &:active
         background: darken($branding, 15%)
 
 .contact-btn
-    padding: .6em 1.1em
+    padding: .5em 0
     background: #fff
+    border-bottom: 3px solid $dark
     color: $dark
+    font-weight: 700
     font-size: 1.1em
-    border: 1px solid $dark
-    +border-radius
     transition: all 0.3s ease 0s
     white-space: nowrap
 
-    &:hover, &:after, &:active
-        background: $dark
-        color: #fff
+    &:hover, &:focus, &:active, &:selected, &:visited
+        color: lighten($dark, 35%)!important
+        border-bottom: 3px solid lighten($dark, 35%)!important
+
+.modal-form-btn
+    height: 50px!important
+    background: $branding!important
+    border: 1px solid $branding!important
+    color: #fff
+    font-weight: 400
+    font-size: 1.1em
+    transition: all 0.3s ease 0s
+    white-space: nowrap
+
+    &:hover, &:focus, &:active, &:selected, &:visited
+        background: darken($branding, 35%)!important
+        border: 1px solid darken($branding, 35%)!important
+        color: white!important

@@ -16,7 +16,7 @@ class ProjectRequestsController < ApplicationController
   private
 
   def project_requests_params
-    params.require(:new_project).permit(:name,
+    params.require(:project_requests).permit(:name,
                                             :last_name,
                                             :email,
                                             :title,
