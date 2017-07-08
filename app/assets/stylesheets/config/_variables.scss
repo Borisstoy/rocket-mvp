@@ -82,3 +82,8 @@ $screen-lg:         900px;
   -webkit-justify-content: space-between;
   justify-content: space-between;
 }
+
+@mixin justifycontent-spacearound {
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
+ }
