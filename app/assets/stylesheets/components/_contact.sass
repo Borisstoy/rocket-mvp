@@ -1,16 +1,16 @@
 .contact-container
-    height: 200px
+    height: 300px
+    +flexbox
+    +alignitems-center
+    +justifycontent-center
+    +flexdirection-column
 
     @media (max-width: $screen-md)
         height: auto
 
     .contact-content
-        +flexbox
-        +alignitems-center
-        +justifycontent-spacearound
         margin: 0 auto
         max-width: 800px
 
-        .left-side
-
-        .right-side
+        .cta
+            margin: 2.5rem 0

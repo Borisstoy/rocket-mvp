@@ -21,8 +21,8 @@ fr:
 
   pages:
     home_banner:
-      banner_intro: "Nous développons votre prototype"
-      banner_prop: "Obtenez votre produit dans un délai d'un mois"
+      banner_intro: "Entrepreneurs, testez votre idée, validez votre concept"
+      banner_prop: "Nous sommes une agence spécalisée dans la création de prototypes web"
     contact:
       contact: "Prêt à commencer le développement de votre produit?"
 
@@ -36,22 +36,22 @@ fr:
 
   home:
     mission_title: 'Mission'
-    mission_content_html: "Nous accompagnons les entrepreneurs à emmener leurs idées de 0 à 1. Notre équipe concentre trois compétences essentielles pour la résussite de votre start-up: développement web et mobile, marketing et business. <br><br>Notre offre synthétise les meilleurs pratiques technologiques et de création d'entreprise. Vous votre Avant d'investir du temps et de l'argent dans le dé un projet nous pensons que le meilleur moyen de lancer développons . <br><br>Caractérisé son marché l'idée à la réalisation de leur application web et mobile. Axé sur les meilleurs pratiques de 0 à 1. Adapté aux startup et aux contraintes financières de jeunes structures."
+    mission_content_html: "Nous accompagnons les entrepreneurs à mener leurs idées de 0 à 1. Notre équipe concentre trois compétences essentielles pour la résussite de votre start-up: développement web et mobile, marketing et business intelligence.<br><br>Notre offre synthétise les meilleurs pratiques technologiques, adaptée aux startup et aux contraintes financières de jeunes structures."
 
-    value_title: 'We stand for'
-    val_1_title: 'Entrepreneurship'
+    value_title: 'Nos valeurs'
+    val_1_title: 'Entrepreneuriat'
     val_2_title: 'Business first'
-    val_3_title: 'Analytics'
-    val_4_title: 'Confidentiality'
+    val_3_title: 'Analytiques'
+    val_4_title: 'Confidentialité'
 
     val_1_content: "Nous sommes des entrepreneurs au service d'entrepreneurs. L'optimisation des ressources et la rapidité d'exécution sont nos contraintes principales."
     val_2_content: "La technolgie est au service du business. Jamais l'inverse. Nos méthodes de développements sont optimisées pour chaque phase de votre projet."
-    val_3_content: "Quantitatif Qualitative. Nos réalisations sont systématiquement livrés avec des outils de gestion et d'analyse les plus performants du marché."
+    val_3_content: "Nos réalisations sont systématiquement livrés avec des outils de gestion et d'analyse les plus performants du marché."
     val_4_content: "La discrétion dans une étape aussi cruciale de votre projet, est au coeur de notre engagement."
 
     offer_title: ' Offre'
     pack_1_title: "Basic"
-    pack_1_sub: "Test your concept"
+    pack_1_sub: "Testez votre concept sur un marché donné"
     pack_1_desc: "Valider une adéquation problème/solution. Analyser sa cible clientèle. Fédérer une équipe. Trouver des financements"
     pack_1_i_1: "Landing page"
     pack_1_i_2: "Blog"
@@ -62,7 +62,7 @@ fr:
 
     pack_2_title: "Premium"
     pack_2_price: "$3000 - $8000"
-    pack_2_sub: "Test a full prototype"
+    pack_2_sub: "Testez un prototype fonctionnel"
     pack_2_desc: "Valider une adéquation produit / marché. Etablir de premiers revenus"
     pack_2_i_1: "Functional web app"
     pack_2_i_2: "Backend"

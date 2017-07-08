@@ -1,23 +1,18 @@
 .offer-container
     height: auto
+    background: #f6f9fc
+    padding: 2em 0
     +flexbox
     +alignitems-center
     +justifycontent-center
     +flexdirection-column
-    position: relative
-    background: #f6f9fc
-    padding: 2em 0
 
     @media (max-width: $screen-md)
-        display: block
-        position: static
         padding: 0
 
     .offer-title
-        position: relative
 
         @media (max-width: $screen-md)
-            position: static
             padding: 2em 2em 0
 
         h1
@@ -30,9 +25,14 @@
 
     .packages-container
         +flexbox
+        +alignitems-center
+        +justifycontent-spacebetween
+        width: 950px
+
 
         @media (max-width: $screen-md)
             +flexdirection-column
+            width: auto
 
         .package
             width: 400px
@@ -94,10 +94,7 @@
                 margin-top: 2rem
 
         .pack-1
-            margin-right: 3rem
-
             @media (max-width: $screen-md)
-                margin-right: 0
                 margin: 1rem
 
             .title
@@ -122,10 +119,7 @@
             .cta
 
         .pack-2
-            margin-left: 3rem
-
             @media (max-width: $screen-md)
-                margin-left: 0
                 margin: 1rem
 
             .title

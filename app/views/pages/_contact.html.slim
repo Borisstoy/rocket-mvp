@@ -1,7 +1,6 @@
 .contact-content
-  .left-side
     h3= t('home.contact_title')
     p= t('home.contact_content')
 
-  .right-side
-    = link_to t('general.get_in_touch'), new_project_request_path(@new_project), class: 'contact-btn grow', remote: true, 'data-toggle' =>  "modal", 'data-target' => '#modal-window'
+    .cta
+      = link_to t('general.get_in_touch'), new_project_request_path(@new_project), class: 'contact-btn', remote: true, 'data-toggle' =>  "modal", 'data-target' => '#modal-window'
