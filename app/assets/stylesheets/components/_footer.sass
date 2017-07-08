@@ -1,0 +1,23 @@
+.footer-container
+    margin: 0 auto
+    height: 80px
+    padding: 0 2em
+    max-width: 70%
+    color: $grey
+    +flexbox
+    +flexdirection-column
+    +alignitems-center
+
+    .footer-content
+        font-size: .9em
+        position: relative
+
+        img
+            width: 70px
+
+        span
+            position: absolute
+            top: 40px
+            left: 55px
+            font-size: .9em
+            color: lighten($grey, 30%)
