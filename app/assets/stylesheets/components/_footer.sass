@@ -29,6 +29,10 @@
 
         a
             color: lighten($grey, 30%)
+            transition: all 0.3s ease 0s
+
+            &:hover, &:focus, &:active
+                color: $grey
 
             @media (max-width: $screen-md)
                 margin-top: 1rem
