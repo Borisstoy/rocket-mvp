@@ -1,4 +1,4 @@
 class ProjectRequest < ApplicationRecord
-  validates :name, presence: true
-  validates :email, presence: true
+  validates_presence_of :name, presence: true
+  validates_presence_of :email, presence: true
 end

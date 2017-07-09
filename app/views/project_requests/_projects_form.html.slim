@@ -1,15 +1,17 @@
-= simple_form_for @new_project, html: { class: 'proj_req_form' }  do |f|
+= simple_form_for new_project, html: { class: 'proj_req_form' }  do |f|
 
   = f.text_field :name,
                  placeholder: I18n.t('.your_name'),
+                 required: true,
                  class: 'name-form'
 
   = f.text_field :email,
                  placeholder: I18n.t('.your_email'),
+                 required: true,
                  class: 'email-form'
 
   = f.text_area :description,
                 placeholder:  I18n.t('.project_description'),
                 class: 'text-form'
 
-  = f.button :submit, class: 'modal-form-btn'
+  = f.button :submit, I18n.t('.project_submit'), class: 'modal-form-btn'

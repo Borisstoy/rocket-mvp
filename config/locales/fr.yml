@@ -1,4 +1,12 @@
 fr:
+  controllers:
+    projects:
+      success: "Merci pour votre attention, notre équipe traite votre demande."
+      fail: "Merci de renseigner votre nom et email"
+  activerecord:
+    errors:
+      messages:
+        record_invalid: "Merci de renseigner votre nom et email"
   modal-contact-title: "Comment pouvons-nous vous aider?"
 
   your_name: "Votre prénom"
@@ -10,6 +18,7 @@ fr:
   project_solution: "La solution que vous apportez"
   project_description: "Décrivez brièvement votre projet"
   project_budget: "Votre budget"
+  project_submit: "Envoyer"
 
   general:
     get_in_touch: "Je prends contact"
@@ -29,12 +38,14 @@ fr:
       contact: "Prêt à commencer le développement de votre produit?"
 
   project_requests:
-    create:
-      project_save: "Votre projet nous a été transmis, notre équipe vous contactera d'ici 48h"
 
   project_requests:
+    create:
+      project_save: "Votre projet nous a été transmis, notre équipe vous contactera d'ici 48h"
     new:
       new_proj_title: "Décrivez votre projet"
+    edit:
+      new_proj_title: "Comment pouvons-nous vous aider?"
 
   home:
     mission_title: 'Notre mission'

@@ -5,7 +5,7 @@ nav#nav-main
 
   .right-side
     = link_to t('.our_service'), root_path
-    / = link_to t('.sumbit_project'), new_project_request_path
+    = link_to t('.sumbit_project'), new_project_request_path(@new_project), class: 'mobile-show'
     / = link_to t('.qa'), faq_path
     / = link_to t('.about'), about_path
 

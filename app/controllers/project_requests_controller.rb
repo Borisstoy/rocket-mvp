@@ -1,5 +1,6 @@
 class ProjectRequestsController < ApplicationController
   skip_before_action :authenticate_user!, only: [ :new, :create ]
+  before_action :set_project, only: [:edit]
 
   def new
     @new_project = ProjectRequest.new
@@ -11,20 +12,36 @@ class ProjectRequestsController < ApplicationController
 
   def create
     @new_project = ProjectRequest.new project_requests_params
+
+    respond_to do |format|
+      if @new_project.save
+        format.html { redirect_to root_path }
+        format.js
+        flash[:notice] = t('controllers.projects.success')
+      else
+        format.html { render 'edit' }
+        format.js { render 'edit.js.erb' }
+        flash[:alert] = t('controllers.projects.fail')
+      end
+    end
+  end
+
+  def edit
+    respond_to do |format|
+      format.html
+      format.js { render 'edit.js.erb' }
+    end
   end
 
   private
 
   def project_requests_params
-    params.require(:project_requests).permit(:name,
-                                            :last_name,
-                                            :email,
-                                            :title,
-                                            :pain,
-                                            :target,
-                                            :solution,
-                                            :description,
-                                            :budget)
+    params.require(:project_request).permit(:name,
+                                             :email,
+                                             :description)
   end
 
+  def set_project
+    @project = ProjectRequest.find(params[:id])
+  end
 end

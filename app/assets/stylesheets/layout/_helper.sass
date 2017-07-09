@@ -13,4 +13,14 @@
 .container-side-pad
     padding: 0 3em
 
+.mobile-show
+    @media (max-width: $screen-md)
+        display: block
+    @media (min-width: $screen-md)
+        display: none!important
 
+.desktop-show
+    @media (min-width: $screen-md)
+        display: block
+    @media (max-width: $screen-md)
+        display: none!important
