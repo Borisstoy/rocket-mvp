@@ -1,8 +1,9 @@
 .offer-title
   h1= t('home.offer_title')
+  h5= t('home.offer_subtitle')
 
 .packages-container
-  .package.pack-1.grow
+  #pack1.package.pack-1.grow
     .title
       h2= t('home.pack_1_title')
       h5= t('home.pack_1_price')
@@ -21,7 +22,7 @@
       span class=('basic-offer-btn')
         = t('home.pack_1_cta')
 
-  .package.pack-2.grow
+  #pack2.package.pack-2.grow
     .title
       h2= t('home.pack_2_title')
       h5= t('home.pack_2_price')

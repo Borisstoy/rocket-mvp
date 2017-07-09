@@ -66,7 +66,8 @@ fr:
     val_3_content: "Nos réalisations sont systématiquement livrés avec des outils de gestion et d'analyse les plus performants du marché."
     val_4_content: "La discrétion dans une étape aussi cruciale de votre projet, est au coeur de notre engagement."
 
-    offer_title: ' Offre'
+    offer_title: 'Offre'
+    offer_subtitle: "Testez votre concept sur un marché donné, analysez vos résultat, itérez."
     pack_1_title: "Basic"
     pack_1_sub: "Testez votre concept"
     pack_1_desc: "Valider une adéquation problème/solution. Analyser sa cible clientèle. Fédérer une équipe. Trouver des financements"

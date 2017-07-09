@@ -2,6 +2,7 @@
 //= require navbar
 //= require smooth-scroll
 //= require alerts
+//= require scroll_reveal
 //= require jquery_ujs
 //= require bootstrap-sprockets
 //= require bootstrap/modal
