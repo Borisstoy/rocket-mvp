@@ -20,7 +20,7 @@ class ProjectRequestsController < ApplicationController
         flash[:notice] = t('controllers.projects.success')
       else
         format.html { render 'edit' }
-        format.js { render 'edit.js.erb' }
+        format.js
         flash[:alert] = t('controllers.projects.fail')
       end
     end
