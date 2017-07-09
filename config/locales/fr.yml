@@ -7,6 +7,7 @@ fr:
     errors:
       messages:
         record_invalid: "Merci de renseigner votre nom et email"
+
   modal-contact-title: "Comment pouvons-nous vous aider?"
 
   your_name: "Votre prénom"
@@ -33,7 +34,7 @@ fr:
   pages:
     home_banner:
       banner_intro: "Entrepreneurs, testez votre idée, validez votre concept"
-      banner_prop: "Nous sommes une agence spécalisée dans la création de prototypes web"
+      banner_prop: "Nous sommes une agence spécalisée dans la création & commercialisation de prototypes web"
     contact:
       contact: "Prêt à commencer le développement de votre produit?"
 
@@ -55,7 +56,7 @@ fr:
     mission_content_3: "Convaincus de l'importance de tester votre concept avant d'investir dans un processus de développement complet, nous nous focalisons sur la faisabilité de votre projet sur son exécution."
 
     value_title: 'Nos valeurs'
-    value_subtitle: "Notre engagement, le fil conducteur de ntore démarche"
+    value_subtitle: "Notre engagement, le fil conducteur de notre démarche"
     val_1_title: 'Entrepreneuriat'
     val_2_title: 'Business first'
     val_3_title: 'Analytiques'
@@ -66,15 +67,15 @@ fr:
     val_3_content: "Nos réalisations sont systématiquement livrés avec des outils de gestion et d'analyse les plus performants du marché."
     val_4_content: "La discrétion dans une étape aussi cruciale de votre projet, est au coeur de notre engagement."
 
-    offer_title: 'Offre'
+    offer_title: 'Notre offre'
     offer_subtitle: "Testez votre concept sur un marché donné, analysez vos résultat, itérez."
     pack_1_title: "Basic"
     pack_1_sub: "Testez votre concept"
-    pack_1_desc: "Valider une adéquation problème/solution. Analyser sa cible clientèle. Fédérer une équipe. Trouver des financements"
+    pack_1_desc: "Valider une adéquation problème / solution. Analyser la réaction de votre marché cible."
     pack_1_i_1: "Landing page"
     pack_1_i_2: "Blog"
-    pack_1_i_3: "Analytics"
-    pack_1_i_4: "Tutorials"
+    pack_1_i_3: "Analytics tools"
+    pack_1_i_4: "Digital marketing tutorials"
     pack_1_price: "$900"
     pack_1_cta: "Test my concept"
 
@@ -86,5 +87,5 @@ fr:
     pack_2_i_2: "Backend"
     pack_2_cta: "Generate revenue"
 
-    contact_title: 'Convaincu?'
+    contact_title: 'Prêt à vous lancer?'
     contact_content: "Nous sommes une équipe de professionnels experts dans la construction de prototypes et de leur test marché."

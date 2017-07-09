@@ -19,8 +19,8 @@
       span= t('home.pack_2_i_1')
       span= t('home.pack_2_i_2')
     .cta
-      span class=('basic-offer-btn')
-        = t('home.pack_1_cta')
+      span
+        = link_to t('home.pack_1_cta'), new_project_request_path(@new_project), class: 'basic-offer-btn', remote: true, 'data-toggle' =>  "modal", 'data-target' => '#modal-window'
 
   #pack2.package.pack-2.grow
     .title
@@ -38,5 +38,5 @@
       span= t('home.pack_2_i_1')
       span= t('home.pack_2_i_2')
     .cta
-      span class=('premium-offer-btn')
-        = t('home.pack_2_cta')
+      span
+        = link_to t('home.pack_2_cta'), new_project_request_path(@new_project), class: 'premium-offer-btn', remote: true, 'data-toggle' =>  "modal", 'data-target' => '#modal-window'

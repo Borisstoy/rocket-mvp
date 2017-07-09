@@ -3,6 +3,7 @@ en:
     projects:
       success: "Thanks for  your enquiry, our team will get back to you within 24h"
       fail: "Please fill in your name and email"
+
   modal-contact-title: "How can we help?"
 
   activerecord:
@@ -33,8 +34,8 @@ en:
 
   pages:
     home_banner:
-      banner_intro: "We build your prototype"
-      banner_prop: "Get your product up and running within a month"
+      banner_intro: "Entrepreneurs, test your idea, validate your concept"
+      banner_prop: "We are agency expert in web prototype creation & commercialisation"
     contact:
       contact: "Feeling like starting now?"
 
@@ -47,33 +48,33 @@ en:
       new_proj_title: "How can we help?"
 
   home:
-    mission_title: 'Notre mission'
-    mission_subtitle: 'Tester votre projet, développer votre prototype, vous fournir les outils de marketing digital.'
-    mission_content_1: "Entrepreneurs, nous vous accompagnons à mener votre idée de 0 à 1. Notre équipe concentre trois compétences essentielles pour la résussite de votre start-up: développement web et mobile, marketing et business intelligence."
-    mission_content_2: "Notre offre synthétise les meilleurs pratiques technologiques, adaptée aux startup et aux contraintes financières de jeunes structures."
-    mission_content_3: "Convaincus de l'importance de tester votre concept avant d'investir dans un processus de développement complet, nous nous focalisons sur la faisabilité de votre projet sur son exécution."
+    mission_title: 'Our mission'
+    mission_subtitle: 'Test your project, develop your prototype, give you the digital marketing tools to succeed'
+    mission_content_1: "Entrepreneurs, we help you pilot your idea from 0 to 1. Our team concentrates 3 essential expertise to makeyour startup succeed on its market: web and mobile development, marketing and business intelligence."
+    mission_content_2: "Our offer is the combination of the best tech practices, adapted to startups and young structures economic constraints."
+    mission_content_3: "We feel strongly about the importance of testing your concept before investing further resources in a completed development process, therefore, we focus on the feasibility of your project and its execution."
 
-    value_title: 'We stand for'
-    value_subtitle: "Notre engagement, le fil conducteur de ntore démarche"
+    value_title: 'Our values'
+    value_subtitle: "Our commitment, our common thread"
     val_1_title: 'Entrepreneurship'
     val_2_title: 'Business first'
     val_3_title: 'Analytics'
     val_4_title: 'Confidentiality'
 
-    val_1_content: "Nous sommes des entrepreneurs au service d'entrepreneurs. L'optimisation des ressources et la rapidité d'exécution sont nos contraintes principales.'"
-    val_2_content: "La technolgie est au service du business. Jamais l'inverse. Nos méthodes de développements sont optimisées pour chaque phase de votre projet."
-    val_3_content: "Quantitatif Qualitative. Nos réalisations sont systématiquement livrés avec des outils de gestion et d'analyse les plus performants du marché."
-    val_4_content: "La dscrétion dans une étape aussi cruciale de votre projet, est au coeur de notre engagement."
+    val_1_content: "We are entrepreneurs helping entrepreneurs. Resources optimisation and execution speed are our main constraints."
+    val_2_content: "Tech servers business. Not the other way around. Our development methods are optimized for each of your project steps."
+    val_3_content: "Our process and offer always include the best data analytics and marketing tools."
+    val_4_content: "We understand that confidentiality for an early stage structure is key. It is a the very heart of our commitment."
 
-    offer_title: 'Offer'
+    offer_title: 'Our offer'
     offer_subtitle: "Test your concet, analyse data, iterate."
     pack_1_title: "Basic"
     pack_1_sub: "Test your concept"
-    pack_1_desc: "Valider une adéquation problème/solution. Analyser sa cible clientèle. Fédérer une équipe. Trouver des financements"
+    pack_1_desc: "Validate a problem / solution match. Analyse your target audience response."
     pack_1_i_1: "Landing page"
     pack_1_i_2: "Blog"
-    pack_1_i_3: "Analytics"
-    pack_1_i_4: "Tutorials"
+    pack_1_i_3: "Analytics tools"
+    pack_1_i_4: "Digital marketing tutorials"
     pack_1_price: "$900"
     pack_1_cta: "Test my concept"
 
@@ -82,9 +83,9 @@ en:
     pack_2_sub: "Test a full prototype"
     pack_2_desc: "Valider une adéquation produit / marché. Etablir de premiers revenus"
     pack_2_i_1: "Functional web app"
-    pack_2_i_2: "Backend"
+    pack_2_i_2: "Full backend structure"
     pack_2_cta: "Generate revenue"
 
-    contact_title: 'Convaincu?'
-    contact_content: "Nous sommes une équipe de professionnels experts dans l'analyse de vos besoins"
+    contact_title: 'Ready to get started?'
+    contact_content: "We are a professional team expert in prototypes building and market test."
 
