@@ -23,6 +23,7 @@ gem 'i18n'
 gem 'coffee-rails'
 gem 'newrelic_rpm'
 gem 'font-awesome-rails'
+gem 'awesome_print', '~> 1.7'
 
 group :development, :test do
   gem 'binding_of_caller'
