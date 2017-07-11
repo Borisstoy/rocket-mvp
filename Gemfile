@@ -25,6 +25,8 @@ gem 'newrelic_rpm'
 gem 'font-awesome-rails'
 gem 'awesome_print', '~> 1.7'
 
+gem 'forest_liana'
+
 group :development, :test do
   gem 'binding_of_caller'
   gem 'better_errors'
