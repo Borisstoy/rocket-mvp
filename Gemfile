@@ -28,6 +28,8 @@ gem 'awesome_print', '~> 1.7'
 gem 'activeadmin', github: 'activeadmin/activeadmin'
 gem 'inherited_resources', github: 'activeadmin/inherited_resources'
 
+gem 'figaro'
+
 group :development, :test do
   gem 'binding_of_caller'
   gem 'better_errors'
