@@ -30,6 +30,8 @@ gem 'inherited_resources', github: 'activeadmin/inherited_resources'
 
 gem 'figaro'
 
+gem 'mail', '~> 2.6', '>= 2.6.4'
+
 group :development, :test do
   gem 'binding_of_caller'
   gem 'better_errors'
