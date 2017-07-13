@@ -18,7 +18,7 @@ class ProjectRequestsController < ApplicationController
         format.html { redirect_to root_path }
         format.js
         flash[:notice] = t('controllers.projects.success')
-        # AdminNotificationMailer.new_project_notification(@new_project).deliver
+        AdminNotificationMailer.new_project_notification(@new_project).deliver
       else
         format.html { render 'edit' }
         format.js
