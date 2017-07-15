@@ -74,6 +74,19 @@ fr:
     val_3_content: "Nos réalisations sont systématiquement livrés avec des outils de gestion et d'analyse les plus performants du marché."
     val_4_content: "La discrétion dans une étape aussi cruciale de votre projet, est au coeur de notre engagement."
 
+    get_s_title: "Par où commencer?"
+    get_s_subtitle: "Nous connaissons les contraintes d'un lancement de produit"
+    get_s_1_title: "Landing page"
+    get_s_1_content: "Pourquoi commencer avec une landing page plutôt qu'un produit fonctionnel? Parce qu'il est important de tester son concept avant d'entamer un process de développemet. Cela vous permet de rapidement cerner votre marché cible et sa réponse. Un pivot à cet étape est donc plus facile."
+    get_s_2_title: "Blog"
+    get_s_2_content: "Nous vous fournissons un blog. Créer du contenu, avoir un maximum d'articles et de mots clés correspondant à votre coeur business correspond à un meilleur SEO. Aussi, poster ses articles sur les réseaux sociaux permet de mesurer l'engagement de vos utilisateurs potentiels."
+    get_s_3_title: "Outils analytiques"
+    get_s_3_content: "Bien sûr, vous mesurez sur une base quotidienne vos résultats. Nous vous aidons à choisir les indicateurs clés de performance tels que votre 'bounce rate', 'click-through rate' ou votre taux d'activation."
+    get_s_4_title: "Tutoriaux de marketing digital"
+    get_s_4_content: "Une fois lancé, vous avez accès à une série de tutoriaux et contenus créés par nos experts de marketing digital, vous guidant ainsi dans votre développement de marque."
+    get_s_5_title: "Iterations"
+    get_s_5_content: "Il n'y a pas de temps à perdre. Aussi, cette première étape est dédiée au itérations sur votre concept, à trouver la proposition de valeur adaptée à votre marché ainsi qu'à la création d'un mix produit cohérent."
+
     offer_title: 'Notre offre'
     offer_subtitle: "Testez votre concept sur un marché donné, analysez vos résultat, itérez."
     pack_1_title: "Basic"

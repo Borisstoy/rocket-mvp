@@ -1,0 +1,89 @@
+.process-container
+    width: 950px
+    padding: 2em 0
+    margin: 0 auto
+
+    @media (max-width: $screen-md)
+        padding: 1em 0
+        height: auto
+        width: auto
+
+    .left-panel
+        width: 300px
+        float: left
+        height: 500px
+        +flexbox
+        +flexdirection-column
+        +justifycontent-center
+
+        @media (max-width: $screen-md)
+            float: none
+            height: auto
+            width: auto
+            text-align: center
+            padding: 1em 0
+            display: block
+
+
+        h1, h5
+            @media (max-width: $screen-md)
+                text-align: center
+
+        h5
+            line-height: 1.7em
+            font-size: 1.3em
+            color: $grey
+            margin-bottom: 3rem
+            font-weight: 300
+
+            @media (max-width: $screen-md)
+                margin-bottom: 1rem
+                font-size: 1em
+                width: auto
+                padding: 0 2em
+
+        // dynamic panel
+
+        .active-gets
+            span
+                color: $dark
+                padding-bottom: .2em
+                border-bottom: 1px solid #333
+
+        .nav-on-gets
+            @media (max-width: $screen-md)
+                padding: 1em 0
+        span
+            line-height: 1.9em
+            font-size: 1.1em
+            color: $grey
+            margin-bottom: 6rem
+            font-weight: 300
+            cursor: pointer
+
+            @media (max-width: $screen-md)
+                font-size: 1em
+                text-align: center
+
+    .right-panel
+        width: 650px
+        float: right
+        height: 500px
+        padding: 0 6em
+        +flexbox
+        +justifycontent-center
+        +alignitems-center
+
+        @media (max-width: $screen-md)
+            float: none
+            height: auto
+            width: auto
+            padding: 1em
+            border-top: 1px solid $very-light-grey
+
+        .gets-box
+            p
+                line-height: 2em
+                font-weight: 300
+
+

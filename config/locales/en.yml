@@ -73,6 +73,19 @@ en:
     val_3_content: "Our process and offer always include the best data analytics and marketing tools."
     val_4_content: "We understand that confidentiality for an early stage structure is key. It is a the very heart of our commitment."
 
+    get_s_title: "Get started"
+    get_s_subtitle: "We know what it takes to create an launch a product"
+    get_s_1_title: "Landing page"
+    get_s_1_content: "Why starting with a landing page instead of a full product? Because it's less development time, cost effective and it allows to quickly understand if your potential target will be interested in your product. Better pivoting your idea at this stage if necessary."
+    get_s_2_title: "Blog"
+    get_s_2_content: "We set up for you a blog platform. Creating content that will make your page stand out is key and improves SEO. Plus, you'll need to post on social media, which will make you test your target audience engagement."
+    get_s_3_title: "Analytics tools"
+    get_s_3_content: "Of course, you measure on a daily basis metrics that matter. We'll pick together the most relevant ones, such as bounce rate, click-through rate or conversion rate."
+    get_s_4_title: "Digital marketing tutorials"
+    get_s_4_content: "Once on board, you have access to content created by experts in digital marketing that will guide you through your market test."
+    get_s_5_title: "Iterations"
+    get_s_5_content: "There is no time to lose. Thus, the first month is dedicated to small iterations, to find the best value proposition and product mix that will guide your future product development. It allows you to move quickly."
+
     offer_title: 'Our offer'
     offer_subtitle: "Test your concet, analyse data, iterate."
     pack_1_title: "Basic"
@@ -93,6 +106,6 @@ en:
     pack_2_i_2: "Full backend structure"
     pack_2_cta: "Generate revenue"
 
-    contact_title: 'Ready to get started?'
+    contact_title: "Let's get to work"
     contact_content: "We are a professional team expert in prototypes building and market test."
 
