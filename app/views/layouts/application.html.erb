@@ -35,7 +35,11 @@
   <body>
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
     <div id="wrapper-nav" class='wrap-pad'>
-      <%= render 'shared/navbar' %>
+      <% if content_for?(:navbar) %>
+        <%= yield(:navbar) %>
+      <% else %>
+        <%= render 'shared/navbar' %>
+      <% end %>
     </div>
     <%= render 'shared/flashes' %>
     <div id= main-wrapper >
