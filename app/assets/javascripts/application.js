@@ -4,6 +4,7 @@
 //= require alerts
 //= require scroll_reveal
 //= require center_vert_modal
+//= require get_started
 //= require jquery_ujs
 //= require bootstrap-sprockets
 //= require bootstrap/modal
