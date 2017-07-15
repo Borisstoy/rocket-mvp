@@ -14,6 +14,8 @@ nav#nav-main
     - else
       = link_to "Français", { :locale=>'fr' }
 
+    - if user_signed_in?
+      = link_to "Admin Sign Out", destroy_user_session_path, method: :delete
   .slider
 
 #nav-trigger
