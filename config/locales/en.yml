@@ -1,4 +1,11 @@
 en:
+  date:
+    formats:
+      long: "%Y-%m-%d"
+  time:
+    formats:
+      long: "%Y-%m-%d %H:%M:%S"
+
   controllers:
     projects:
       success: "Thanks for  your enquiry, our team will get back to you within 24h"

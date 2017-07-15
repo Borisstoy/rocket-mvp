@@ -1,11 +1,10 @@
 fr:
-  time:
-    am: a.m.
+  date:
     formats:
-      default: '%a, %d %b %Y %H:%M:%S %z'
-      long: '%B %d, %Y %H:%M'
-      short: '%d %b %H:%M'
-    pm: p.m.
+      long: "%Y-%m-%d"
+  time:
+    formats:
+      long: "%Y-%m-%d %H:%M:%S"
 
   controllers:
     projects:
