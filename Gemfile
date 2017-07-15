@@ -1,6 +1,10 @@
 source 'https://rubygems.org'
 ruby '2.4.0'
 
+%w[rspec-core rspec-expectations rspec-mocks rspec-rails rspec-support].each do |lib|
+  gem lib, :git => "https://github.com/rspec/#{lib}.git", :branch => 'master'
+end
+
 gem 'rails', '5.1.0'
 gem 'puma'
 gem 'pg'
