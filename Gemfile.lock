@@ -51,7 +51,7 @@ GEM
       erubi (~> 1.4)
       rails-dom-testing (~> 2.0)
       rails-html-sanitizer (~> 1.0, >= 1.0.3)
-    active_skin (0.0.12)
+    active_admin_theme (1.0.3)
     activejob (5.1.0)
       activesupport (= 5.1.0)
       globalid (>= 0.3.6)
@@ -270,7 +270,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  active_skin
+  active_admin_theme
   activeadmin!
   autoprefixer-rails
   awesome_print (~> 1.7)
