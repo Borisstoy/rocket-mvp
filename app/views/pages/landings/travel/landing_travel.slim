@@ -1,2 +1,8 @@
 - content_for :navbar do
   = render 'pages/landings/travel/travel_navbar'
+
+- content_for :body do
+  = render 'pages/landings/travel/banner'
+
+  #wrapper-body.clearfix
+    = render 'pages/landings/travel/value_prop'

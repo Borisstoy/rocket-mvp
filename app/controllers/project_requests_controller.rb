@@ -13,6 +13,8 @@ class ProjectRequestsController < ApplicationController
   def create
     @new_project = ProjectRequest.new project_requests_params
 
+    set_project_kind
+
     respond_to do |format|
       if @new_project.save
         format.html { redirect_to root_path }
@@ -34,15 +36,24 @@ class ProjectRequestsController < ApplicationController
     end
   end
 
+
   private
 
   def project_requests_params
     params.require(:project_request).permit(:name,
                                              :email,
-                                             :description)
+                                             :description,
+                                             :travel)
   end
 
   def set_project
     @project = ProjectRequest.find(params[:id])
+  end
+
+  def set_project_kind
+    if request.fullpath.include? 'travel'
+      @new_project.travel = true
+      @new_project.save
+    end
   end
 end
