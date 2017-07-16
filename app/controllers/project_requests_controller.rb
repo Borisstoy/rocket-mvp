@@ -12,9 +12,6 @@ class ProjectRequestsController < ApplicationController
 
   def create
     @new_project = ProjectRequest.new project_requests_params
-
-    set_project_kind
-
     respond_to do |format|
       if @new_project.save
         format.html { redirect_to root_path }
