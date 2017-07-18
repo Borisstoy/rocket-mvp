@@ -14,6 +14,10 @@
                 placeholder:  I18n.t('.project_description'),
                 class: 'text-form'
 
+  = f.text_area :description,
+                placeholder:  I18n.t('.project_description'),
+                class: 'text-form'
+
   / = f.hidden_field :travel, set_project_kind
 
   = f.button :submit, I18n.t('.project_submit'), class: 'modal-form-btn'

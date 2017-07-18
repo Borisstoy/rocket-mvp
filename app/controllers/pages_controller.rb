@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
-  skip_before_action :authenticate_user!, only: [ :home, :travel]
+  skip_before_action :authenticate_user!, only: [ :home, :travel ]
 
   def home
     @new_project = ProjectRequest.new

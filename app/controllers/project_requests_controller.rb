@@ -13,6 +13,7 @@ class ProjectRequestsController < ApplicationController
   def create
     @new_project = ProjectRequest.new project_requests_params
     respond_to do |format|
+      set_project_kind
       if @new_project.save
         format.html { redirect_to root_path }
         format.js
@@ -33,7 +34,6 @@ class ProjectRequestsController < ApplicationController
     end
   end
 
-
   private
 
   def project_requests_params
@@ -45,12 +45,5 @@ class ProjectRequestsController < ApplicationController
 
   def set_project
     @project = ProjectRequest.find(params[:id])
-  end
-
-  def set_project_kind
-    if request.fullpath.include? 'travel'
-      @new_project.travel = true
-      @new_project.save
-    end
   end
 end
