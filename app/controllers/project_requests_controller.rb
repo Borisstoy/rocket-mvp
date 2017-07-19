@@ -3,17 +3,13 @@ class ProjectRequestsController < ApplicationController
   before_action :set_project, only: [:edit]
 
   def new
-    @new_project = ProjectRequest.new
-    respond_to do |format|
-      format.html
-      format.js
-    end
+    @home_new_project = ProjectRequest.new(home: true)
+    @travel_new_project = ProjectRequest.new(travel: true)
   end
 
   def create
     @new_project = ProjectRequest.new project_requests_params
     respond_to do |format|
-      set_project_kind
       if @new_project.save
         format.html { redirect_to root_path }
         format.js
@@ -28,10 +24,6 @@ class ProjectRequestsController < ApplicationController
   end
 
   def edit
-    respond_to do |format|
-      format.html
-      format.js { render 'edit.js.erb' }
-    end
   end
 
   private
@@ -40,7 +32,8 @@ class ProjectRequestsController < ApplicationController
     params.require(:project_request).permit(:name,
                                              :email,
                                              :description,
-                                             :travel)
+                                             :travel,
+                                             :home)
   end
 
   def set_project

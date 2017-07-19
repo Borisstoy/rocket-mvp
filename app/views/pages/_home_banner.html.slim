@@ -5,9 +5,9 @@
     h1= t('.banner_intro')
     h5= t('.banner_prop')
 
-    = link_to t('general.get_in_touch'), new_project_request_path(@new_project), class: 'grow desktop-show', remote: true, 'data-toggle' =>  "modal", 'data-target' => '#modal-window'
+    = link_to t('general.get_in_touch'), new_project_request_path(@home_new_project, home: true), class: 'grow desktop-show', remote: true, 'data-toggle' =>  "modal", 'data-target' => '#modal-window'
 
-    = link_to t('.sumbit_project'), new_project_request_path(@new_project), class: 'mobile-show'
+    = link_to t('.sumbit_project'), new_project_request_path(@home_new_project), class: 'mobile-show'
 
   .arrow-down
     .arrow-container
