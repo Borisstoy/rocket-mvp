@@ -1,12 +1,4 @@
-<div class="modal-dialog">
-  <div class="modal-content">
-    <div class="modal-header">
-      <button type="button" class="close" data-dismiss="modal">&times;</button>
-      <h4 class="modal-title"><%= t('modal-contact-title') %></h4>
-    </div>
-    <div class="modal-body">
-      <%= render 'projects_form', new_project: @new_project %>
-    </div>
-  </div>
-</div>
-
+<button id="closeSliderBtn">
+  X
+</button>
+<%= render 'projects_form', new_project: @new_project %>

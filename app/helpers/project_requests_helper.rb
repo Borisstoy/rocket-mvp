@@ -6,6 +6,12 @@ module ProjectRequestsHelper
     ranges.each { |range| range }
   end
 
+  def link_to_new_project(wording, style)
+    link_to "#{wording}", new_project_request_path(@new_project),
+                                      class: "#{style}",
+                                      id: "contactSliderBtn",
+                                      remote: true
+
   def set_new_project_instance
     project = @new_project
     if request.referrer.include? 'home'

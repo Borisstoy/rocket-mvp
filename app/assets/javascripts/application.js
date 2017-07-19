@@ -6,6 +6,7 @@
 //= require center_vert_modal
 //= require get_started
 //= require jquery_ujs
+//= require contact_slider
 //= require bootstrap-sprockets
 //= require bootstrap/modal
 //= require_tree .
