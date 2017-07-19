@@ -2,7 +2,6 @@
 //= require navbar
 //= require smooth-scroll
 //= require alerts
-//= require jquery-ui
 //= require scroll_reveal
 //= require center_vert_modal
 //= require get_started
