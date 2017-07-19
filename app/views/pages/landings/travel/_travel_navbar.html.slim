@@ -7,13 +7,6 @@ nav#nav-main
     = link_to t('.our_service'), root_path
     = link_to t('.sumbit_project'), new_project_request_path(@new_project), class: 'mobile-show'
 
-    - if I18n.locale == I18n.default_locale
-      = link_to "English", { :locale=>'en' }
-    - else
-      = link_to "Français", { :locale=>'fr' }
-
-    - if user_signed_in?
-      = link_to "Admin Sign Out", destroy_user_session_path, method: :delete
   .slider
 
 #nav-trigger

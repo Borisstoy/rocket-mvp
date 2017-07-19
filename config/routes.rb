@@ -2,12 +2,14 @@ Rails.application.routes.draw do
   scope '(:locale)', locale: /fr|en/ do
     ActiveAdmin.routes(self)
     devise_for :users
-    #pages
-    root to: 'pages#home'
-    get 'qa' => 'pages#faq', as: :faq
-    get 'about' => 'pages#about', as: :about
+
+    scope "/home" do
+      root to: "pages#home"
+    end
+    # root to: 'pages#home'
     #projects
     resources :project_requests
+    #landings
+    get 'travel' => 'pages#travel', as: :travel
   end
-
 end

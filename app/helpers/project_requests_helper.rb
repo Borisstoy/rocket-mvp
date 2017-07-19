@@ -11,5 +11,14 @@ module ProjectRequestsHelper
                                       class: "#{style}",
                                       id: "contactSliderBtn",
                                       remote: true
+
+  def set_new_project_instance
+    project = @new_project
+    if request.referrer.include? 'home'
+      project.home = true
+    elsif request.referrer.include? 'travel'
+      project.travel = true
+    end
+    project.save
   end
 end
