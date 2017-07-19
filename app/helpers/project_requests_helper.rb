@@ -5,4 +5,11 @@ module ProjectRequestsHelper
              " > 4000€"]
     ranges.each { |range| range }
   end
+
+  def link_to_new_project(wording, style)
+    link_to "#{wording}", new_project_request_path(@new_project),
+                                      class: "#{style}",
+                                      id: "contactSliderBtn",
+                                      remote: true
+  end
 end

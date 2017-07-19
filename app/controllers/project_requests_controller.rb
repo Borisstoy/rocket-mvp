@@ -2,6 +2,8 @@ class ProjectRequestsController < ApplicationController
   skip_before_action :authenticate_user!, only: [ :new, :create ]
   before_action :set_project, only: [:edit]
 
+  include ProjectRequestsHelper
+
   def new
     @new_project = ProjectRequest.new
     respond_to do |format|

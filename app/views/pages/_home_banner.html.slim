@@ -5,11 +5,13 @@
     h1= t('.banner_intro')
     h5= t('.banner_prop')
 
-    = link_to t('general.get_in_touch'), new_project_request_path(@new_project), class: 'grow desktop-show', id: "contactSliderBtn", remote: true
+    #closeSliderBtn
+      = 'ok'
+
+    - cta = t('general.get_in_touch')
+    = link_to_new_project(cta, "grow desktop-show")
 
     = link_to t('.sumbit_project'), new_project_request_path(@new_project), class: 'mobile-show'
-
-  #contactSliderContainer
 
   .arrow-down
     .arrow-container
