@@ -5,10 +5,11 @@
     h1= t('.banner_intro')
     h5= t('.banner_prop')
 
-    = link_to t('general.get_in_touch'), new_project_request_path(@new_project), class: 'grow desktop-show', remote: true, 'data-toggle' =>  "modal", 'data-target' => '#modal-window'
+    = link_to t('general.get_in_touch'), new_project_request_path(@new_project), class: 'grow desktop-show', id: "contactSliderBtn", remote: true
 
     = link_to t('.sumbit_project'), new_project_request_path(@new_project), class: 'mobile-show'
 
+  .contactSliderContainer
   .arrow-down
     .arrow-container
       a.arrow href="#wrapper-body"
