@@ -2,13 +2,17 @@ class ProjectRequestsController < ApplicationController
   skip_before_action :authenticate_user!, only: [ :new, :create ]
   before_action :set_project, only: [:edit]
 
+  include ProjectRequestsHelper
+
   def new
-    @home_new_project = ProjectRequest.new(home: true)
-    @travel_new_project = ProjectRequest.new(travel: true)
+    @new_project = ProjectRequest.new
   end
 
   def create
     @new_project = ProjectRequest.new project_requests_params
+
+    set_new_project_instance
+
     respond_to do |format|
       if @new_project.save
         format.html { redirect_to root_path }

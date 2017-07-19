@@ -3,7 +3,10 @@ Rails.application.routes.draw do
     ActiveAdmin.routes(self)
     devise_for :users
 
-    root to: 'pages#home'
+    scope "/home" do
+      root to: "pages#home"
+    end
+    # root to: 'pages#home'
     #projects
     resources :project_requests
     #landings
