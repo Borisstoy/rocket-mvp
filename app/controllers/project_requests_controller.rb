@@ -2,16 +2,16 @@ class ProjectRequestsController < ApplicationController
   skip_before_action :authenticate_user!, only: [ :new, :create ]
   before_action :set_project, only: [:edit]
 
+  include ProjectRequestsHelper
+
   def new
     @new_project = ProjectRequest.new
-    respond_to do |format|
-      format.html
-      format.js
-    end
   end
 
   def create
     @new_project = ProjectRequest.new project_requests_params
+
+    set_new_project_instance
 
     respond_to do |format|
       if @new_project.save
@@ -28,10 +28,6 @@ class ProjectRequestsController < ApplicationController
   end
 
   def edit
-    respond_to do |format|
-      format.html
-      format.js { render 'edit.js.erb' }
-    end
   end
 
   private
@@ -39,7 +35,9 @@ class ProjectRequestsController < ApplicationController
   def project_requests_params
     params.require(:project_request).permit(:name,
                                              :email,
-                                             :description)
+                                             :description,
+                                             :travel,
+                                             :home)
   end
 
   def set_project

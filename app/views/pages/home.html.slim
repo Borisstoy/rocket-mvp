@@ -1,19 +1,21 @@
-= render 'home_banner'
+- content_for :body do
 
-#wrapper-body.clearfix
+  = render 'home_banner'
 
-  .mission-container.clearfix
-    = render 'mission'
+  #wrapper-body.clearfix
 
-  .value-container.clearfix
-    = render 'value'
+    .mission-container.clearfix
+      = render 'mission'
 
-  .process-container.clearfix
-    = render 'get_started'
+    .value-container.clearfix
+      = render 'value'
 
-  .offer-container.clearfix
-    = render 'offer'
+    .process-container.clearfix
+      = render 'get_started'
 
-  .contact-container.clearfix
-    = render 'contact'
+    .offer-container.clearfix
+      = render 'offer'
+
+    .contact-container.clearfix
+      = render 'contact'
 
