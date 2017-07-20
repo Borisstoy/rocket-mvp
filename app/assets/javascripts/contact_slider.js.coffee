@@ -19,4 +19,10 @@ $(document).ready ->
       overlay.hide()
       closeBtn.animate 'margin-left': '-=400'
 
+  $(document).on 'keydown', (e) ->
+    if e.keyCode == 27
+      slider.animate 'margin-left': '-=400px'
+      overlay.hide()
+      closeBtn.animate 'margin-left': '-=400'
+    return
 
