@@ -5,7 +5,8 @@ nav#nav-main
 
   .right-side
     = link_to t('.our_service'), root_path
-    = link_to t('.sumbit_project'), new_project_request_path(@new_project), class: 'mobile-show'
+    - cta = t('general.get_in_touch')
+    = link_to_new_project(cta, "grow desktop-show")
 
   .slider
 
