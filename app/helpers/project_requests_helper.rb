@@ -8,8 +8,7 @@ module ProjectRequestsHelper
 
   def link_to_new_project(wording, style)
     link_to "#{wording}", new_project_request_path(@new_project),
-                                      class: "#{style}",
-                                      id: "contactSliderBtn",
+                                      class: "#{style} openSliderBtn",
                                       remote: true
   end
 

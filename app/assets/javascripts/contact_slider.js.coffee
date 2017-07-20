@@ -1,6 +1,6 @@
 $(document).ready ->
   slider = $('#contactSliderContainer')
-  openBtn = $('#contactSliderBtn')
+  openBtn = $('.openSliderBtn')
   closeBtn = $('#closeSliderBtn')
 
   openBtn.click ->
@@ -11,6 +11,7 @@ $(document).ready ->
       $('#slider-bg-overlay').show()
       slider.addClass('openSlider')
       closeBtn.show()
+      event.preventDefault()
 
   closeBtn.click ->
     if slider.hasClass('openSlider')
