@@ -14,10 +14,10 @@ module ProjectRequestsHelper
 
   def set_new_project_instance
     project = @new_project
-    if request.referrer.include? 'home'
-      project.home = true
-    elsif request.referrer.include? 'travel'
+    if request.referrer.include? 'travel'
       project.travel = true
+    elsif
+      project.home = true
     end
     project.save
   end
