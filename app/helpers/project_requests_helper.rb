@@ -11,6 +11,7 @@ module ProjectRequestsHelper
                                       class: "#{style}",
                                       id: "contactSliderBtn",
                                       remote: true
+  end
 
   def set_new_project_instance
     project = @new_project
