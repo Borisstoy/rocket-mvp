@@ -55,6 +55,8 @@ en:
       new_proj_title: "How can we help?"
 
   home:
+    slider:
+      powered_by: "Powered by rocketmvp"
     mission_title: 'Our mission'
     mission_subtitle: 'Test your project, develop your prototype, give you the digital marketing tools to succeed'
     mission_content_1: "Entrepreneurs, we help you pilot your idea from 0 to 1. Our team concentrates 3 essential expertise to makeyour startup succeed on its market: web and mobile development, marketing and business intelligence."

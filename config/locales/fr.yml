@@ -56,6 +56,8 @@ fr:
       new_proj_title: "Comment pouvons-nous vous aider?"
 
   home:
+    slider:
+      powered_by: "Propulsé par rocketmvp"
     mission_title: 'Notre mission'
     mission_subtitle: 'Tester votre projet, développer votre prototype, vous fournir les outils de marketing digital.'
     mission_content_1: "Entrepreneurs, nous vous accompagnons à mener votre idée de 0 à 1. Notre équipe concentre trois compétences essentielles pour la résussite de votre start-up: développement web et mobile, marketing et business intelligence."
@@ -94,18 +96,18 @@ fr:
     pack_1_desc: "Valider une adéquation problème / solution. Analyser la réaction de votre marché cible."
     pack_1_i_1: "Landing page"
     pack_1_i_2: "Blog"
-    pack_1_i_3: "Analytics tools"
-    pack_1_i_4: "Digital marketing tutorials"
+    pack_1_i_3: "Outils analitiques"
+    pack_1_i_4: "Tutoriels de marketing digital"
     pack_1_price: "$900"
-    pack_1_cta: "Test my concept"
+    pack_1_cta: "Tester mon concept"
 
     pack_2_title: "Premium"
     pack_2_price: "$3000 - $8000"
     pack_2_sub: "Testez un prototype fonctionnel"
     pack_2_desc: "Valider une adéquation produit / marché. Etablir de premiers revenus"
-    pack_2_i_1: "Functional web app"
+    pack_2_i_1: "Web app fonctionnel"
     pack_2_i_2: "Backend"
-    pack_2_cta: "Generate revenue"
+    pack_2_cta: "Générer des revenus"
 
     contact_title: 'Prêt à vous lancer?'
     contact_content: "Nous sommes une équipe de professionnels experts dans la construction de prototypes et de leurs tests marché."
