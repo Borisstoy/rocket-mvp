@@ -57,8 +57,8 @@ html
         #contactSliderContainer
         #closeSliderBtn
         #slider-bg-overlay
-      - if content_for?(:body)
-        = yield(:body)
+      = yield
+
 
       #modal-window.modal.fade[role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"]
 
