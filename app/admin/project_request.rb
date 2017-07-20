@@ -18,6 +18,8 @@ ActiveAdmin.register ProjectRequest do
     column :id
     column :email
     column :name
+    column :home
+    column :travel
     column :created_at
     actions
   end
