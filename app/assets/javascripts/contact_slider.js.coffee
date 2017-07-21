@@ -1,8 +1,8 @@
 $(document).ready ->
-  slider = $('#contactSliderContainer')
-  openBtn = $('.openSliderBtn')
-  closeBtn = $('#closeSliderBtn')
-  overlay = $('#slider-bg-overlay')
+  slider      = $('#contactSliderContainer')
+  openBtn     = $('.openSliderBtn')
+  closeBtn    = $('#closeSliderBtn')
+  overlay     = $('#slider-bg-overlay')
 
   openBtn.click ->
     if slider.css('margin-left') == '0px'

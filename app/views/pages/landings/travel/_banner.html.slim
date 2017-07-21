@@ -1,2 +1,3 @@
 #wrapper-banner
-  = link_to t('general.get_in_touch'), new_project_request_path(@new_project), class: 'grow desktop-show', remote: true, 'data-toggle' =>  "modal", 'data-target' => '#modal-window'
+  - cta = t('general.get_in_touch')
+  = link_to_new_project(cta, "grow desktop-show")

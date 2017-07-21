@@ -16,7 +16,7 @@
         h1
             font-size: 3em
             font-weight: 700
-            color: $branding
+            color: $dark
 
             @media (max-width: $screen-lg)
                 font-size: 1.8em
@@ -33,11 +33,11 @@
 
         a
             display: inline-block
-            color: $secondary
+            color: $branding
             margin-top: 2rem
-            font-size: 1.2em
-            border: 2px solid $secondary
-            padding: .6em 1em
+            font-size: 1.1em
+            border: 2px solid $branding
+            padding: .5em .9em
             +border-radius
             transition: all 0.3s ease 0s
             white-space: nowrap
@@ -49,15 +49,15 @@
                 font-family: FontAwesome
                 content: '\f178'
                 margin-left: 1rem
-                color: $secondary
+                color: $branding
 
             &:hover:after
                 color: #fff
 
             &:hover
                 color: #fff
-                background: darken($secondary, 10%)
-                border: 2px solid darken($secondary, 10%)
+                background: darken($branding, 10%)
+                border: 2px solid darken($branding, 10%)
 
     video
         position: fixed
