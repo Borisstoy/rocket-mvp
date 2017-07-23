@@ -1,12 +1,17 @@
-nav#nav-main
+nav#nav-main.travel-nav
   .left-side
-    = link_to root_path, class: "logo" do
-      = image_tag "rocket-mvp-logo.svg"
+    = link_to travel_path, class: "logo" do
+      = image_tag "experiencia-logo-rocketmvp.svg"
 
   .right-side
     = link_to t('.our_service'), root_path
     - cta = t('general.get_in_touch')
     = link_to_new_project(cta, "grow desktop-show")
+
+    - if I18n.locale == I18n.default_locale
+      = link_to "English", { :locale=>'en' }
+    - else
+      = link_to "Français", { :locale=>'fr' }
 
   .slider
 
