@@ -3,6 +3,8 @@ module ApplicationHelper
     wrap = ""
     if is_path?("/travel")
       wrap = "main-wrapper-travel"
+    elsif is_path?("/rhythm")
+      wrap = "main-wrapper-rhythm"
     else
       wrap = ""
     end

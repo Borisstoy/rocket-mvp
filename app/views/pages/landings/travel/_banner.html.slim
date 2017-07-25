@@ -1,6 +1,7 @@
 #wrapper-banner.banner-travel-bg
   .intro
-  .pic
+    h1 = t('travel.banner.cta')
+    h5 = t('travel.banner.exp')
   .action
-  - cta = t('travel.banner.get_in_touch')
-  = link_to_new_project(cta, "grow desktop-show")
+    - cta = t('travel.banner.get_in_touch')
+    = link_to_new_project(cta, "grow desktop-show")

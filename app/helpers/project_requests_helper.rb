@@ -16,7 +16,9 @@ module ProjectRequestsHelper
     project = @new_project
     if request.referrer.include? 'travel'
       project.travel = true
-    elsif
+    elsif request.referrer.include? 'rhythm'
+      project.rhythm = true
+    else
       project.home = true
     end
     project.save

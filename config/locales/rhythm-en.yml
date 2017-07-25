@@ -1,0 +1,8 @@
+en:
+  rhythm:
+    navbar:
+      get_in_touch: "I am interested"
+    banner:
+      cta: "Find music events that match your playlists"
+      exp: "Curated music events list based on your Spotify playlists"
+      get_in_touch: "Find an event"
