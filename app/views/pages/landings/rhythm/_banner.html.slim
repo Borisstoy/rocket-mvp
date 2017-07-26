@@ -1,8 +1,10 @@
-#wrapper-banner.banner-rhythm-bg.rhy-bg
+#wrapper-banner.banner-rhythm
   .wrap-items
     .intro
       h1 = t('rhythm.banner.cta')
-      span = t('rhythm.banner.exp')
+      span = raw t('rhythm.banner.exp')
+      .rhy-banner
+        = image_tag 'rhythm-banner-rocket.svg'
     .action
       - cta = t('rhythm.banner.get_in_touch')
       = link_to_new_project(cta, "rhy-banner-btn desktop-show")
