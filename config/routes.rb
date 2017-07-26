@@ -7,5 +7,6 @@ Rails.application.routes.draw do
     resources :project_requests
     #landings
     get 'travel' => 'pages#travel', as: :travel
+    get 'rhythm' => 'pages#rhythm_and_soul', as: :'rhythm'
   end
 end

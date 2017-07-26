@@ -1,10 +1,10 @@
-nav#nav-main.travel-nav
+nav#nav-main.rhythm-nav
   .left-side
-    = link_to travel_path, class: "logo" do
-      = image_tag "experiencia-logo-rocketmvp.svg"
+    = link_to rhythm_path, class: "logo" do
+      = image_tag "rhythm-logo.svg"
 
   .right-side
-    - cta = t('general.get_in_touch')
+    - cta = t('rhythm.navbar.get_in_touch')
     = link_to_new_project(cta, "grow desktop-show")
 
     - if I18n.locale == I18n.default_locale

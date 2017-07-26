@@ -12,11 +12,25 @@ module ProjectRequestsHelper
                                       remote: true
   end
 
+  def conditional_proj_red_submit
+    form_wrap = ""
+    if request.referrer.include? 'travel'
+      form_wrap = "travel_simple_form_wrap"
+    elsif request.referrer.include? 'rhythm'
+      form_wrap = "rhy_simple_form_wrap"
+    else
+      form_wrap = "rocket_simple_form_wrap"
+    end
+    form_wrap
+  end
+
   def set_new_project_instance
     project = @new_project
     if request.referrer.include? 'travel'
       project.travel = true
-    elsif
+    elsif request.referrer.include? 'rhythm'
+      project.rhythm = true
+    else
       project.home = true
     end
     project.save
