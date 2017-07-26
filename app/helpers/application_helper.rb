@@ -14,4 +14,16 @@ module ApplicationHelper
   def is_path?(paths)
     request.path.include?(paths)
   end
+
+  def nav_wrapper
+    wrap = ""
+    if is_path?("/travel")
+      wrap = "nav-wrapper-travel"
+    elsif is_path?("/rhythm")
+      wrap = "nav-wrapper-rhythm"
+    else
+      wrap = "nav-wrapper-rocket"
+    end
+    wrap
+  end
 end

@@ -1,0 +1,30 @@
+.nav-wrapper-rocket
+    max-width: 950px
+
+    .left-side
+        img
+            width: 160px
+
+    .right-side
+        a
+            margin: 0 0 0 3.5rem
+            font-size: .9em
+            font-weight: 400
+            color: $grey
+            position: relative
+
+            &:hover
+                color: darken($grey, 20%)
+
+            &:after
+                content: ""
+                position: absolute
+                bottom: -6px
+                left: 0
+                width: 0%
+                border-bottom: 2px solid $branding
+                transition: 0.2s
+                color: $branding
+
+            &:hover:after
+                width: 100%

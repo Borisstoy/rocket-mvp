@@ -1,10 +1,20 @@
-#nav-main
-    max-width: 100%!important
+.nav-wrapper-rhythm
+    nav#nav-main
+        max-width: 100%!important
+        .left-side
+            img
+                width: 70px
 
-.rhythm-nav
-    .left-side
-        img
-            width: 70px!important
+        .right-side
+            +flexbox
 
-    .right-side
-        +flexbox
+            a
+                margin: 0 0 0 3.5rem
+                font-size: .9em
+                font-weight: 400
+                color: $grey
+
+                &:hover
+                    color: darken($grey, 20%)
+
+

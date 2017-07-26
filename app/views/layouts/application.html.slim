@@ -45,7 +45,7 @@ html
     | ">
   body class="#{main_wrapper_page_style}"
     script[src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"]
-    #wrapper-nav.wrap-pad
+    #wrapper-nav.wrap-pad class="#{nav_wrapper}"
       - if content_for?(:navbar)
         = yield(:navbar)
       - else
