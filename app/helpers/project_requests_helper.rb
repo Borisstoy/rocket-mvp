@@ -12,14 +12,14 @@ module ProjectRequestsHelper
                                       remote: true
   end
 
-  def conditional_form_wrapper
+  def conditional_proj_red_submit
     form_wrap = ""
     if request.referrer.include? 'travel'
       form_wrap = "travel_simple_form_wrap"
     elsif request.referrer.include? 'rhythm'
       form_wrap = "rhy_simple_form_wrap"
     else
-      form_wrap = "proj-req-form"
+      form_wrap = "rocket_simple_form_wrap"
     end
     form_wrap
   end
