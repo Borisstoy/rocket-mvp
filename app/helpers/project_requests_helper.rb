@@ -37,10 +37,18 @@ module ProjectRequestsHelper
   end
 
   def project_form_title
-    if request.referrer.include? 'rhythm'
-      t('rhythm.modal-contact-title')
+    if request.referrer.include? 'en/rhythm'
+      I18n.locale = "en"
+      I18n.t('rhythm.modal_contact_title')
+    elsif request.referrer.include? '/rhythm'
+      I18n.locale = "fr"
+      I18n.t('rhythm.modal_contact_title')
+    elsif request.referrer.include? 'en'
+      I18n.locale = "en"
+      I18n.t('modal_contact_title')
     else
-      t('modal-contact-title')
+      I18n.locale = "fr"
+      I18n.t('modal_contact_title')
     end
   end
 

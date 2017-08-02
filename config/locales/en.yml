@@ -11,7 +11,9 @@ en:
       success: "Thanks for  your enquiry, our team will get back to you within 24h"
       fail: "Please fill in your name and email"
 
-  modal-contact-title: "How can we help?"
+  modal_contact_title: "How can we help?"
+  rhythm:
+    modal_contact_title: "Ideas or comments? That's right here."
 
   activerecord:
     errors:

@@ -15,7 +15,9 @@ fr:
       messages:
         record_invalid: "Merci de renseigner votre nom et email"
 
-  modal-contact-title: "Comment pouvons-nous vous aider?"
+  modal_contact_title: "Comment pouvons-nous vous aider?"
+  rhythm:
+    modal_contact_title: "Des idées ou commentaires? C'est ici."
 
   project_title: "Le nom de votre projet"
   project_pain: "Le besoin que vous adressez / le problème que vous réglez"
