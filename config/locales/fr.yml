@@ -17,14 +17,10 @@ fr:
 
   modal-contact-title: "Comment pouvons-nous vous aider?"
 
-  your_name: "Votre prénom"
-  your_last_name: "Votre nom"
-  your_email: "Votre email"
   project_title: "Le nom de votre projet"
   project_pain: "Le besoin que vous adressez / le problème que vous réglez"
   project_target: "Votre cible"
   project_solution: "La solution que vous apportez"
-  project_description: "Décrivez brièvement votre projet"
   project_budget: "Votre budget"
   project_submit: "Envoyer"
 
@@ -44,8 +40,6 @@ fr:
       banner_prop: "Nous sommes une agence spécalisée dans la création & commercialisation de prototypes web"
     contact:
       contact: "Prêt à commencer le développement de votre produit?"
-
-  project_requests:
 
   project_requests:
     create:

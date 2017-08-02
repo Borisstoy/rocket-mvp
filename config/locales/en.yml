@@ -18,16 +18,11 @@ en:
       messages:
         record_invalid: "Please fill in your name and email"
 
-  your_name: "Your name"
-  your_last_name: "Your last name"
-  your_email: "Your email"
   project_title: "Your project name"
   project_pain: "The problem you solve"
   project_target: "Your target"
   project_solution: "The solution you bring"
-  project_description: "Describe briefly your project"
   project_budget: "Your budget"
-  project_submit: "Send"
 
   general:
     get_in_touch: "Get in touch"
@@ -47,6 +42,7 @@ en:
       contact: "Feeling like starting now?"
 
   project_requests:
+    projects_form:
     create:
       project_save: "Your project has been successfully submitted, we'll bet gack to you within 48 hours"
     new:

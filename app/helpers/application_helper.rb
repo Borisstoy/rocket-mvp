@@ -28,6 +28,10 @@ module ApplicationHelper
     request.path.include?(paths)
   end
 
+  def rocket
+    is_path?("/")
+  end
+
   def rhythm
     is_path?("/rhythm")
   end

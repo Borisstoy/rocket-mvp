@@ -1,18 +1,17 @@
 = simple_form_for new_project, html: { class: 'proj_req_form' }  do |f|
 
   = f.text_field :name,
-                 placeholder: I18n.t('.your_name'),
+                 placeholder: I18n.t('simple_form.proj_req.your_last_name'),
                  required: true,
                  class: 'name-form'
 
   = f.text_field :email,
-                 placeholder: I18n.t('.your_email'),
+                 placeholder: I18n.t('simple_form.proj_req.your_email'),
                  required: true,
                  class: 'email-form'
 
   = f.text_area :description,
-                placeholder:  I18n.t('.project_description'),
+                placeholder: project_text_area_placeholder,
                 class: 'text-form'
 
-  = f.button :submit, I18n.t('.project_submit')
-  modal-form-btn
+  = f.button :submit, I18n.t('simple_form.proj_req.project_submit')

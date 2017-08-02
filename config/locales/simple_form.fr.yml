@@ -1,9 +1,9 @@
-en:
+fr:
   simple_form:
-    "yes": 'Yes'
-    "no": 'No'
+    "oui": 'Oui'
+    "non": 'Non'
     required:
-      text: 'required'
+      text: 'requis'
       mark: '*'
       # You can uncomment the line below if you need to overwrite the whole required html.
       # When using html, text and mark won't be used.
@@ -31,11 +31,11 @@ en:
     #     age: 'Select your age'
       # projects_form:
     proj_req:
-      your_name: "Your name"
-      your_last_name: "Your last name"
-      your_email: "Your email"
-      project_submit: "Send"
+      your_name: "Votre prénom"
+      your_last_name: "Votre nom"
+      your_email: "Votre email"
+      project_submit: "Envoyer"
 
-      rhythm_text_area: "Tell us what feature you would like to see in our product"
-      rocket_text_area: "Describe briefly your project"
+      rhythm_text_area: "Dites nous les fonctionnalités que vous aimeriez voir dans notre produit"
+      rocket_text_area: "Décrivez brièvement votre projet"
 

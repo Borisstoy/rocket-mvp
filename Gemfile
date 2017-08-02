@@ -22,7 +22,7 @@ gem 'simple_form'
 gem 'autoprefixer-rails'
 
 gem 'slim-rails', '~> 3.1', '>= 3.1.1'
-gem 'i18n'
+gem 'rails-i18n'
 
 gem 'coffee-rails'
 gem 'newrelic_rpm'

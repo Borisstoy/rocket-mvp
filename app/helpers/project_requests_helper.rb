@@ -35,4 +35,31 @@ module ProjectRequestsHelper
     end
     project.save
   end
+
+  def project_form_title
+    if request.referrer.include? 'rhythm'
+      t('rhythm.modal-contact-title')
+    else
+      t('modal-contact-title')
+    end
+  end
+
+  def project_text_area_placeholder
+    if request.referrer.include? 'en/rhythm'
+      I18n.locale = "en"
+      I18n.t('simple_form.proj_req.rhythm_text_area')
+    elsif request.referrer.include? '/rhythm'
+      I18n.locale = I18n.default_locale
+      I18n.t('simple_form.proj_req.rhythm_text_area')
+    elsif request.referrer.include? 'fr/rhythm'
+      I18n.locale = I18n.default_locale
+      I18n.t('simple_form.proj_req.rhythm_text_area')
+    elsif request.referrer.include? 'en'
+      I18n.locale = "en"
+      I18n.t('simple_form.proj_req.rocket_text_area')
+    else
+      I18n.locale = "fr"
+      I18n.t('simple_form.proj_req.rocket_text_area')
+    end
+  end
 end
