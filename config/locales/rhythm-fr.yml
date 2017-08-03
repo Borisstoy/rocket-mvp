@@ -6,7 +6,15 @@ fr:
       cta: "Trouvez les concerts correspondant vos playlists"
       exp: "Scannez vos playlists Spotify, obtenez tous <br> les concerts liés à vos artistes"
       get_in_touch: "Trouver un concert"
-    project_form_text: "Nous développons actuellement une solution vous proposant de scanner vos playlists Spotify, générant instantannément une liste de concerts liés à vos artistes.<br> Vous serez en mesure de voir chaque évèvement sur une carte, de les sauvegarder et d'acheter vos billets <br>Nous avons à coeur de recueillir vos idées et avis pour parfaire notre phase de lancement.<br> À vos plumes!"
-    prop1: "Scannez vos playlists Spotify"
-    prop2: "Obtenez une liste de concerts liés à vos artistes"
-    prop3: "Achetez vos billets"
+    project_form_text: "Nous développons actuellement une solution vous proposant de scanner vos playlists Spotify, générant instantannément des listes de concerts liées à vos artistes.<br> Vous serez en mesure de voir chaque évèvement sur une carte, de les sauvegarder et d'acheter vos billets. <br>Nous avons à coeur de recueillir vos idées et avis pour parfaire notre phase de lancement.<br> À vos plumes!"
+
+    props-title: "Ne perdez plus de temps à chercher les évèvements qui vous correspondent"
+
+    prop1-title: "Playlists & Artistes"
+    prop1: "Scannez vos playlists Spotify. Grâce à nos système, nous sommes capable d'avoir une idée claire du type d'évènements qui vous correspond."
+
+    prop2-title: "Concerts & Festivals"
+    prop2: "Obtenez une liste de concerts liés à vos artistes. Une fois vois artistes identifiés, nous nous chargeons de créer une liste exhaustives de tous leurs concerts, partout dans le monde."
+
+    prop3-title: "Billeterie"
+    prop3: "Achetez vos billets. Nous utilisons les meilleurs portails de ticketing du marché. Vous n'avez plus qu'à sauvegarder vos évèvements et acheter vos billets!"

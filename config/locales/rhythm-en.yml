@@ -7,3 +7,14 @@ en:
       exp: "Curated music events list based on your Spotify playlists"
       get_in_touch: "Find an event"
     project_form_text: "We are working on a new product allowing you to scan your Spotify playlists that will generate a curated music events' list.<br> You'll be able to see them on a map, bookmark them and buy tickets.<br>We like to think we develop a product that people will enjoy, that's why your opinion matters."
+
+    props-title: "Don't lose any more time looking for music events that you like"
+
+    prop1-title: "Playlists & Artists"
+    prop1: "Scan your Spotify playlists. Thanks to our maching machine, we are able to quickly get a clear picture of what kind of music events you'd like to attend."
+
+    prop2-title: "Concerts & Festivals"
+    prop2: "Get instantly an exhaustive concerts and festivals list. Once your artists identified, we take care of finding the events around you -and anywhere else-."
+
+    prop3-title: "Ticketing"
+    prop3: "Buy tickets directly from our platform. We use the best providers on the markets for a seamless experience. Scan, find and buy. Easy peasy lemon squeezy"

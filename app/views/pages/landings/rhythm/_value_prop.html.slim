@@ -1,19 +1,22 @@
 .props-wrap
-
+  h4= t('rhythm.props-title')
   .prop1.prop-box
-    .prop-left
-      p= t('rhythm.prop1')
-    .prop-right
+    .prop-top
       = image_tag '003-spotify.svg'
+    .prop-bot
+      h5= t('rhythm.prop1-title')
+      p= t('rhythm.prop1').html_safe
 
   .prop2.prop-box
-    .prop-left
+    .prop-top
       = image_tag '002-calendar.svg'
-    .prop-right
-      p= t('rhythm.prop2')
+    .prop-bot
+      h5= t('rhythm.prop2-title')
+      p= t('rhythm.prop2').html_safe
 
   .prop3.prop-box
-    .prop-left
-      p= t('rhythm.prop3')
-    .prop-right
+    .prop-top
       =image_tag '001-tickets.svg'
+    .prop-bot
+      h5= t('rhythm.prop3-title')
+      p= t('rhythm.prop3').html_safe

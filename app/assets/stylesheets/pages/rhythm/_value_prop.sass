@@ -5,32 +5,33 @@
     +justifycontent-center
 
     .props-wrap
-        height: 800px
-        width: 600px
+        height: auto
+        width: 800px
 
         .prop-box
-            height: 230px
+            height: 300px
             +flexbox
+            +flexdirection-column
             +alignitems-center
             +justifycontent-center
             text-align: center
 
             img
                 height: 90px
-
+            h5
+                color: $rhythm-dark
+                height: 50px
             p
                 color: lighten($rhythm-dark, 40%)
 
-        .prop-left
-            float: left
-            width: 50%
+        .prop-top
 
-        .prop-right
-            float: right
-            width: 50%
+        .prop-bot
 
         .prop1
 
         .prop2
 
         .prop3
+
+
