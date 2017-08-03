@@ -12,7 +12,7 @@ module ProjectRequestsHelper
                                       remote: true
   end
 
-  def conditional_proj_red_submit
+  def conditional_proj_req_submit
     form_wrap = ""
     if request.referrer.include? 'travel'
       form_wrap = "travel_simple_form_wrap"
