@@ -34,16 +34,30 @@
             position: relative
             color: $dark
 
+        .project_form_text
+            font-size: .9em
+            color: lighten($dark, 30%)
+            margin-top: 2%
+
         .wrapper-proj-req-erb
             width: 85%
             padding: 10% 0
             height: 100%
 
-        .powered
+        .powered-wrapper
+            +flexbox
             position: absolute
             bottom: 35px
-            color: lighten($dark, 40%)
-            font-size: .8em
+
+            img
+                width: 25px
+
+            .powered
+                color: lighten($dark, 40%)
+                font-size: .8em
+
+                &:hover, &:focus, &:active
+                    color: $dark
 
     #closeSliderBtn
         position: relative

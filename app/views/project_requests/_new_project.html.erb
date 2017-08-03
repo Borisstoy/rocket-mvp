@@ -1,5 +1,11 @@
 <div class="wrapper-proj-req-erb <%= conditional_proj_req_submit %>">
   <span class="slider-intro"><%= project_form_title %></span>
+  <%= project_form_text %>
   <%= render 'projects_form', new_project: @new_project %>
-  <span class="powered"><%= t('home.slider.powered_by') %></span>
+  <div class="powered-wrapper">
+    <%= link_to root_path do %>
+      <%= image_tag 'rocket.svg' %>
+      <span class="powered"><%= t('home.slider.powered_by') %></span>
+    <% end %>
+  </div>
 </div>
