@@ -7,3 +7,6 @@ fr:
       exp: "Scannez vos playlists Spotify, obtenez tous <br> les concerts liés à vos artistes"
       get_in_touch: "Trouver un concert"
     project_form_text: "Nous développons actuellement une solution vous proposant de scanner vos playlists Spotify, générant instantannément une liste de concerts liés à vos artistes.<br> Vous serez en mesure de voir chaque évèvement sur une carte, de les sauvegarder et d'acheter vos billets <br>Nous avons à coeur de recueillir vos idées et avis pour parfaire notre phase de lancement.<br> À vos plumes!"
+    prop1: "Scannez vos playlists Spotify"
+    prop2: "Obtenez une liste de concerts liés à vos artistes"
+    prop3: "Achetez vos billets"
