@@ -42,6 +42,10 @@ fr:
       banner_prop: "Nous sommes une agence spécalisée dans la création & commercialisation de prototypes web"
     contact:
       contact: "Prêt à commencer le développement de votre produit?"
+    landings:
+      rhythm:
+        banner:
+          sumbit_project: "Envoyer"
 
   project_requests:
     create:

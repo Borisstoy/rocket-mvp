@@ -1,6 +1,9 @@
 .banner-rhythm
     overflow: hidden
 
+    @media (max-width: $screen-lg)
+        height: 570px!important
+
     .wrap-items
         +flexbox
         +flexdirection-column
@@ -27,9 +30,17 @@
                 right: -315px
                 z-index: -1
 
+                @media (max-width: $screen-lg)
+                    position: static
+                    height: auto
+
                 img
                     position: absolute
                     max-height: 60%
+
+                    @media (max-width: $screen-lg)
+                        height: 150px
+                        position: static
 
         .action
             margin-top: 5%

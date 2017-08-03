@@ -42,6 +42,10 @@ en:
       banner_prop: "We are an agency expert in web prototypes creation & commercialisation"
     contact:
       contact: "Feeling like starting now?"
+    landings:
+        rhythm:
+          banner:
+            sumbit_project: "Envoyer"
 
   project_requests:
     projects_form:
