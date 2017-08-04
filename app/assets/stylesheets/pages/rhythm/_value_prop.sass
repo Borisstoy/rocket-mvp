@@ -3,10 +3,15 @@
     +flexbox
     +alignitems-center
     +justifycontent-center
+    +flexdirection-column
+    padding: 3em 0
 
     .props-wrap
-        height: auto
-        width: 800px
+        height: 500px
+        width: 1100px
+        padding: 3em 0
+        +flexbox
+        +alignitems-center
 
         .prop-box
             height: 300px
@@ -15,10 +20,13 @@
             +alignitems-center
             +justifycontent-center
             text-align: center
+            padding: 0 2em
 
             img
                 height: 90px
-            h5
+                margin-bottom: 40%
+
+            h2
                 color: $rhythm-dark
                 height: 50px
             p
